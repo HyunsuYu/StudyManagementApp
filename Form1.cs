@@ -188,6 +188,7 @@ namespace StudyManagementApp
             problemBtns.Add(button_Lecture_ProblemBtn_5);
 
             RefreshLectures();
+
         }
 
         private void SetCurDashboard(DashboardKind dashboardKind)
