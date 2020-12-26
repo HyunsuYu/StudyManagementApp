@@ -103,18 +103,18 @@ namespace StudyManagementApp
         {
             public string date, lectureName;
             public SelfScoreData selfScoreData;
-            public AnalyzeData analyzeData;
+            public List<List<AnalyzeData>> analyzeDatas;
             public List<Problem> problems;
             public List<string> codeTexts;
 
 
 
-            public LectureData(string date, string lectureName, SelfScoreData selfScoreData, AnalyzeData analyzeData, List<Problem> problems)
+            public LectureData(string date, string lectureName, SelfScoreData selfScoreData, List<List<AnalyzeData>> analyzeDatas, List<Problem> problems)
             {
                 this.date = date;
                 this.lectureName = lectureName;
                 this.selfScoreData = selfScoreData;
-                this.analyzeData = analyzeData;
+                this.analyzeDatas = analyzeDatas;
                 this.problems = problems;
                 codeTexts = new List<string>();
                 for(int index = 0; index < problems.Count; index++)
@@ -163,16 +163,18 @@ namespace StudyManagementApp
         public struct AnalyzeData
         {
             public float runTime, totalMemoryAllocation, GC_Gen1, GC_Gen2, GC_Gen3;
+            public string param;
 
 
 
-            public AnalyzeData(float runTime, float totalMemoryAllocation, float GC_Gen1, float GC_Gen2, float GC_Gen3)
+            public AnalyzeData(float runTime, float totalMemoryAllocation, float GC_Gen1, float GC_Gen2, float GC_Gen3, string param)
             {
                 this.runTime = runTime;
                 this.totalMemoryAllocation = totalMemoryAllocation;
                 this.GC_Gen1 = GC_Gen1;
                 this.GC_Gen2 = GC_Gen2;
                 this.GC_Gen3 = GC_Gen3;
+                this.param = param;
             }
             public AnalyzeData(AnalyzeData analyzeData)
             {
@@ -181,6 +183,7 @@ namespace StudyManagementApp
                 this.GC_Gen1 = analyzeData.GC_Gen1;
                 this.GC_Gen2 = analyzeData.GC_Gen2;
                 this.GC_Gen3 = analyzeData.GC_Gen3;
+                this.param = analyzeData.param;
             }
 
             public static bool operator ==(AnalyzeData a, AnalyzeData b)
@@ -246,7 +249,7 @@ namespace StudyManagementApp
                 lectureDatas.Clear();
 
                 List<SelfScoreData> selfScoreDatas = new List<SelfScoreData>();
-                List<AnalyzeData> analyzeDatas = new List<AnalyzeData>();
+                List<List<List<AnalyzeData>>> analyzeDatas = new List<List<List<AnalyzeData>>>();
                 List<List<int>> relavantProblems = new List<List<int>>();
                 List<string> dates = new List<string>(), lectureNames = new List<string>();
 
@@ -254,7 +257,7 @@ namespace StudyManagementApp
                 while (mySqlDataReader.Read())
                 {
                     selfScoreDatas.Add(mySqlDataReader["SelfScoreDataJson"].ToString() == "" ? default(SelfScoreData) : JsonConvert.DeserializeObject<SelfScoreData>(mySqlDataReader["SelfScoreDataJson"].ToString()));
-                    analyzeDatas.Add(mySqlDataReader["AnalyzeDatajson"].ToString() == "" ? default(AnalyzeData) : JsonConvert.DeserializeObject<AnalyzeData>(mySqlDataReader["AnalyzeDatajson"].ToString()));
+                    analyzeDatas.Add(mySqlDataReader["AnalyzeDatajson"].ToString() == "" ? default(List<List<AnalyzeData>>) : JsonConvert.DeserializeObject<List<List<AnalyzeData>>>(mySqlDataReader["AnalyzeDatajson"].ToString()));
                     dates.Add(mySqlDataReader["Date"].ToString());
                     lectureNames.Add(mySqlDataReader["LectureName"].ToString());
 
@@ -293,6 +296,11 @@ namespace StudyManagementApp
                     if(problems[index].Count == 0)
                     {
                         problems[index].Add(new Problem());
+                    }
+                    if(analyzeDatas[index].Count == 0)
+                    {
+                        analyzeDatas[index].Add(new List<AnalyzeData>());
+                        analyzeDatas[index][0].Add(new AnalyzeData());
                     }
 
                     lectureDatas.Add(new LectureData(dates[index], lectureNames[index], selfScoreDatas[index], analyzeDatas[index], problems[index]));

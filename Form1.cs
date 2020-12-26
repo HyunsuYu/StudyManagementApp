@@ -40,12 +40,12 @@ namespace StudyManagementApp
         private LectureManager lectureManager;
         private UserManager userManager;
 
-        private List<Panel> selfScorePanels_Content, selfScorePanels_Coding, simpleAnalyzePanels;
+        private List<Panel> selfScorePanels_Content, selfScorePanels_Coding, simpleAnalyzePanels, analyze_runtimePanels, analyze_allocationPanels, analyze_GC1Panels, analyze_GC2Panels, analyze_GC3Panels;
         private List<Button> lectureBtns, problemBtns;
 
         private bool login;
 
-        private int curEditLecture, curEditProblem;
+        private int curEditLecture, curEditProblem, curAnalyzeLecture, curAnalyzeProblem;
 
 
 
@@ -123,8 +123,68 @@ namespace StudyManagementApp
             flowLayoutPanel_Analyze_SelectLecture_FlowBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, flowLayoutPanel_Analyze_SelectLecture_FlowBack.Width, flowLayoutPanel_Analyze_SelectLecture_FlowBack.Height, 20, 20));
             panel_Analyze_SelectProblem_MainBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Analyze_SelectProblem_MainBack.Width, panel_Analyze_SelectProblem_MainBack.Height, 20, 20));
 
-            // Buttons
+            //  Buttons
 
+            //  Analyze
+            button_Analyze_SelectLectureBtn_1.Visible = false;
+            button_Analyze_SelectLectureBtn_1.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_2.Visible = false;
+            button_Analyze_SelectLectureBtn_2.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_3.Visible = false;
+            button_Analyze_SelectLectureBtn_3.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_4.Visible = false;
+            button_Analyze_SelectLectureBtn_4.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_5.Visible = false;
+            button_Analyze_SelectLectureBtn_5.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_6.Visible = false;
+            button_Analyze_SelectLectureBtn_6.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_7.Visible = false;
+            button_Analyze_SelectLectureBtn_7.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_8.Visible = false;
+            button_Analyze_SelectLectureBtn_8.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_9.Visible = false;
+            button_Analyze_SelectLectureBtn_9.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_10.Visible = false;
+            button_Analyze_SelectLectureBtn_10.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_11.Visible = false;
+            button_Analyze_SelectLectureBtn_11.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_12.Visible = false;
+            button_Analyze_SelectLectureBtn_12.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_13.Visible = false;
+            button_Analyze_SelectLectureBtn_13.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_14.Visible = false;
+            button_Analyze_SelectLectureBtn_14.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_15.Visible = false;
+            button_Analyze_SelectLectureBtn_15.Enabled = false;
+
+            button_Analyze_SelectProblemBtn_1.Visible = false;
+            button_Analyze_SelectProblemBtn_1.Enabled = false;
+
+            button_Analyze_SelectProblemBtn_2.Visible = false;
+            button_Analyze_SelectProblemBtn_2.Enabled = false;
+
+            button_Analyze_SelectProblemBtn_3.Visible = false;
+            button_Analyze_SelectProblemBtn_3.Enabled = false;
+
+            button_Analyze_SelectProblemBtn_4.Visible = false;
+            button_Analyze_SelectProblemBtn_4.Enabled = false;
+
+            button_Analyze_SelectProblemBtn_5.Visible = false;
+            button_Analyze_SelectProblemBtn_5.Enabled = false;
         }
         private void PrepareAll()
         {
@@ -135,8 +195,58 @@ namespace StudyManagementApp
             selfScorePanels_Content = new List<Panel>();
             selfScorePanels_Coding = new List<Panel>();
             simpleAnalyzePanels = new List<Panel>();
+            analyze_runtimePanels = new List<Panel>();
+            analyze_allocationPanels = new List<Panel>();
+            analyze_GC1Panels = new List<Panel>();
+            analyze_GC2Panels = new List<Panel>();
+            analyze_GC3Panels = new List<Panel>();
             lectureBtns = new List<Button>();
             problemBtns = new List<Button>();
+
+            for(int index = 0; index < 6; index++)
+            {
+                Panel panel_runtime = new Panel();
+                Panel panel_allocation = new Panel();
+                Panel panel_GC1 = new Panel();
+                Panel panel_GC2 = new Panel();
+                Panel panel_GC3 = new Panel();
+
+                Controls.Add(panel_runtime);
+                Controls.Add(panel_allocation);
+                Controls.Add(panel_GC1);
+                Controls.Add(panel_GC2);
+                Controls.Add(panel_GC3);
+
+                panel_runtime.BackColor = Color.FromArgb(254, 188, 44);
+                panel_allocation.BackColor = Color.FromArgb(248, 76, 72);
+                panel_GC1.BackColor = Color.FromArgb(254, 188, 44);
+                panel_GC2.BackColor = Color.FromArgb(248, 76, 72);
+                panel_GC3.BackColor = Color.Lime;
+
+                panel_runtime.Visible = false;
+                panel_allocation.Visible = false;
+                panel_GC1.Visible = false;
+                panel_GC2.Visible = false;
+                panel_GC3.Visible = false;
+
+                panel_runtime.Enabled = false;
+                panel_allocation.Enabled = false;
+                panel_GC1.Enabled = false;
+                panel_GC2.Enabled = false;
+                panel_GC3.Enabled = false;
+
+                panel_runtime.BringToFront();
+                panel_allocation.BringToFront();
+                panel_GC1.BringToFront();
+                panel_GC2.BringToFront();
+                panel_GC3.BringToFront();
+
+                analyze_runtimePanels.Add(panel_runtime);
+                analyze_allocationPanels.Add(panel_allocation);
+                analyze_GC1Panels.Add(panel_GC1);
+                analyze_GC2Panels.Add(panel_GC2);
+                analyze_GC3Panels.Add(panel_GC3);
+            }
 
             // News
             RefreshNews();
@@ -204,6 +314,101 @@ namespace StudyManagementApp
             problemBtns.Add(button_Lecture_ProblemBtn_5);
 
             RefreshLectures();
+
+            //  Analyze
+            if(lectureManager.LectureDatas.Count >= 1)
+            {
+                button_Analyze_SelectLectureBtn_1.Visible = true;
+                button_Analyze_SelectLectureBtn_1.Enabled = true;
+                button_Analyze_SelectLectureBtn_1.Text = "Ep.1 " + lectureManager.LectureDatas[0].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 2)
+            {
+                button_Analyze_SelectLectureBtn_2.Visible = true;
+                button_Analyze_SelectLectureBtn_2.Enabled = true;
+                button_Analyze_SelectLectureBtn_2.Text = "Ep.2 " + lectureManager.LectureDatas[1].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 3)
+            {
+                button_Analyze_SelectLectureBtn_3.Visible = true;
+                button_Analyze_SelectLectureBtn_3.Enabled = true;
+                button_Analyze_SelectLectureBtn_3.Text = "Ep.3 " + lectureManager.LectureDatas[2].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 4)
+            {
+                button_Analyze_SelectLectureBtn_4.Visible = true;
+                button_Analyze_SelectLectureBtn_4.Enabled = true;
+                button_Analyze_SelectLectureBtn_4.Text = "Ep.4 " + lectureManager.LectureDatas[3].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 5)
+            {
+                button_Analyze_SelectLectureBtn_5.Visible = true;
+                button_Analyze_SelectLectureBtn_5.Enabled = true;
+                button_Analyze_SelectLectureBtn_5.Text = "Ep.5 " + lectureManager.LectureDatas[4].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 6)
+            {
+                button_Analyze_SelectLectureBtn_6.Visible = true;
+                button_Analyze_SelectLectureBtn_6.Enabled = true;
+                button_Analyze_SelectLectureBtn_6.Text = "Ep.6 " + lectureManager.LectureDatas[5].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 7)
+            {
+                button_Analyze_SelectLectureBtn_7.Visible = true;
+                button_Analyze_SelectLectureBtn_7.Enabled = true;
+                button_Analyze_SelectLectureBtn_7.Text = "Ep.7 " + lectureManager.LectureDatas[6].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 8)
+            {
+                button_Analyze_SelectLectureBtn_8.Visible = true;
+                button_Analyze_SelectLectureBtn_8.Enabled = true;
+                button_Analyze_SelectLectureBtn_8.Text = "Ep.8 " + lectureManager.LectureDatas[7].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 9)
+            {
+                button_Analyze_SelectLectureBtn_9.Visible = true;
+                button_Analyze_SelectLectureBtn_9.Enabled = true;
+                button_Analyze_SelectLectureBtn_9.Text = "Ep.9 " + lectureManager.LectureDatas[8].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 10)
+            {
+                button_Analyze_SelectLectureBtn_10.Visible = true;
+                button_Analyze_SelectLectureBtn_10.Enabled = true;
+                button_Analyze_SelectLectureBtn_10.Text = "Ep.10 " + lectureManager.LectureDatas[9].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 11)
+            {
+                button_Analyze_SelectLectureBtn_11.Visible = true;
+                button_Analyze_SelectLectureBtn_11.Enabled = true;
+                button_Analyze_SelectLectureBtn_11.Text = "Ep.11 " + lectureManager.LectureDatas[10].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 12)
+            {
+                button_Analyze_SelectLectureBtn_12.Visible = true;
+                button_Analyze_SelectLectureBtn_12.Enabled = true;
+                button_Analyze_SelectLectureBtn_12.Text = "Ep.12 " + lectureManager.LectureDatas[11].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 13)
+            {
+                button_Analyze_SelectLectureBtn_13.Visible = true;
+                button_Analyze_SelectLectureBtn_13.Enabled = true;
+                button_Analyze_SelectLectureBtn_13.Text = "Ep.13 " + lectureManager.LectureDatas[12].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 14)
+            {
+                button_Analyze_SelectLectureBtn_14.Visible = true;
+                button_Analyze_SelectLectureBtn_14.Enabled = true;
+                button_Analyze_SelectLectureBtn_14.Text = "Ep.14 " + lectureManager.LectureDatas[13].lectureName;
+            }
+            if (lectureManager.LectureDatas.Count >= 15)
+            {
+                button_Analyze_SelectLectureBtn_15.Visible = true;
+                button_Analyze_SelectLectureBtn_15.Enabled = true;
+                button_Analyze_SelectLectureBtn_15.Text = "Ep.15 " + lectureManager.LectureDatas[14].lectureName;
+            }
+
+            SetCurAnalyzeLecture(0);
+            SetCurDashboard(dashboardKind);
         }
 
         private void SetCurDashboard(DashboardKind dashboardKind)
@@ -275,6 +480,35 @@ namespace StudyManagementApp
 
                     panel_Analyze_AnalyzeBack.Visible = true;
                     panel_Analyze_AnalyzeBack.Enabled = true;
+
+                    if(login)
+                    {
+                        for(int index = 0; index < lectureManager.LectureDatas[curAnalyzeLecture].analyzeDatas[curAnalyzeProblem].Count; index++)
+                        {
+                            analyze_runtimePanels[index].Visible = true;
+                            analyze_runtimePanels[index].Enabled = true;
+                        }
+                        for (int index = 0; index < lectureManager.LectureDatas[curAnalyzeLecture].analyzeDatas[curAnalyzeProblem].Count; index++)
+                        {
+                            analyze_allocationPanels[index].Visible = true;
+                            analyze_allocationPanels[index].Enabled = true;
+                        }
+                        for (int index = 0; index < lectureManager.LectureDatas[curAnalyzeLecture].analyzeDatas[curAnalyzeProblem].Count; index++)
+                        {
+                            analyze_GC1Panels[index].Visible = true;
+                            analyze_GC1Panels[index].Enabled = true;
+                        }
+                        for (int index = 0; index < lectureManager.LectureDatas[curAnalyzeLecture].analyzeDatas[curAnalyzeProblem].Count; index++)
+                        {
+                            analyze_GC2Panels[index].Visible = true;
+                            analyze_GC2Panels[index].Enabled = true;
+                        }
+                        for (int index = 0; index < lectureManager.LectureDatas[curAnalyzeLecture].analyzeDatas[curAnalyzeProblem].Count; index++)
+                        {
+                            analyze_GC3Panels[index].Visible = true;
+                            analyze_GC3Panels[index].Enabled = true;
+                        }
+                    }
                     break;
 
                 case DashboardKind.Schedule:
@@ -341,6 +575,35 @@ namespace StudyManagementApp
 
             panel_Analyze_AnalyzeBack.Visible = false;
             panel_Analyze_AnalyzeBack.Enabled = false;
+
+            if (login)
+            {
+                for (int index = 0; index < lectureManager.LectureDatas[curAnalyzeLecture].analyzeDatas[curAnalyzeProblem].Count; index++)
+                {
+                    analyze_runtimePanels[index].Visible = false;
+                    analyze_runtimePanels[index].Enabled = false;
+                }
+                for (int index = 0; index < lectureManager.LectureDatas[curAnalyzeLecture].analyzeDatas[curAnalyzeProblem].Count; index++)
+                {
+                    analyze_allocationPanels[index].Visible = false;
+                    analyze_allocationPanels[index].Enabled = false;
+                }
+                for (int index = 0; index < lectureManager.LectureDatas[curAnalyzeLecture].analyzeDatas[curAnalyzeProblem].Count; index++)
+                {
+                    analyze_GC1Panels[index].Visible = false;
+                    analyze_GC1Panels[index].Enabled = false;
+                }
+                for (int index = 0; index < lectureManager.LectureDatas[curAnalyzeLecture].analyzeDatas[curAnalyzeProblem].Count; index++)
+                {
+                    analyze_GC2Panels[index].Visible = false;
+                    analyze_GC2Panels[index].Enabled = false;
+                }
+                for (int index = 0; index < lectureManager.LectureDatas[curAnalyzeLecture].analyzeDatas[curAnalyzeProblem].Count; index++)
+                {
+                    analyze_GC3Panels[index].Visible = false;
+                    analyze_GC3Panels[index].Enabled = false;
+                }
+            }
 
             //  Schedule
             button_Schedule.ForeColor = Color.FromArgb(166, 166, 166);
@@ -466,6 +729,179 @@ namespace StudyManagementApp
             {
                 problemBtns[index].ForeColor = Color.White;
             }
+        }
+        private void SetCurAnalyzeLecture(int index)
+        {
+            curAnalyzeLecture = index;
+
+            DisableAllAnalyzeLecture();
+
+            switch (index)
+            {
+                case 0:
+                    button_Analyze_SelectLectureBtn_1.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 1:
+                    button_Analyze_SelectLectureBtn_2.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 2:
+                    button_Analyze_SelectLectureBtn_3.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 3:
+                    button_Analyze_SelectLectureBtn_4.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 4:
+                    button_Analyze_SelectLectureBtn_5.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 5:
+                    button_Analyze_SelectLectureBtn_6.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 6:
+                    button_Analyze_SelectLectureBtn_7.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 7:
+                    button_Analyze_SelectLectureBtn_8.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 8:
+                    button_Analyze_SelectLectureBtn_9.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 9:
+                    button_Analyze_SelectLectureBtn_10.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 10:
+                    button_Analyze_SelectLectureBtn_11.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 11:
+                    button_Analyze_SelectLectureBtn_12.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 12:
+                    button_Analyze_SelectLectureBtn_13.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 13:
+                    button_Analyze_SelectLectureBtn_14.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 14:
+                    button_Analyze_SelectLectureBtn_15.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+            }
+
+            if(lectureManager.LectureDatas[index].analyzeDatas.Count >= 1)
+            {
+                button_Analyze_SelectProblemBtn_1.Visible = true;
+                button_Analyze_SelectProblemBtn_1.Enabled = true;
+
+                if (lectureManager.LectureDatas[index].analyzeDatas.Count >= 2)
+                {
+                    button_Analyze_SelectProblemBtn_2.Visible = true;
+                    button_Analyze_SelectProblemBtn_2.Enabled = true;
+
+                    if (lectureManager.LectureDatas[index].analyzeDatas.Count >= 3)
+                    {
+                        button_Analyze_SelectProblemBtn_3.Visible = true;
+                        button_Analyze_SelectProblemBtn_3.Enabled = true;
+
+                        if (lectureManager.LectureDatas[index].analyzeDatas.Count >= 4)
+                        {
+                            button_Analyze_SelectProblemBtn_4.Visible = true;
+                            button_Analyze_SelectProblemBtn_4.Enabled = true;
+
+                            if (lectureManager.LectureDatas[index].analyzeDatas.Count >= 5)
+                            {
+                                button_Analyze_SelectProblemBtn_5.Visible = true;
+                                button_Analyze_SelectProblemBtn_5.Enabled = true;
+                            }
+                        }
+                    }
+                }
+            }
+
+            SetCurAnalyzeProblem(0);
+        }
+        private void DisableAllAnalyzeLecture()
+        {
+            button_Analyze_SelectProblemBtn_1.Visible = false;
+            button_Analyze_SelectProblemBtn_1.Enabled = false;
+
+            button_Analyze_SelectProblemBtn_2.Visible = false;
+            button_Analyze_SelectProblemBtn_2.Enabled = false;
+
+            button_Analyze_SelectProblemBtn_3.Visible = false;
+            button_Analyze_SelectProblemBtn_3.Enabled = false;
+
+            button_Analyze_SelectProblemBtn_4.Visible = false;
+            button_Analyze_SelectProblemBtn_4.Enabled = false;
+
+            button_Analyze_SelectProblemBtn_5.Visible = false;
+            button_Analyze_SelectProblemBtn_5.Enabled = false;
+
+            button_Analyze_SelectLectureBtn_1.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_2.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_3.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_4.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_5.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_6.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_7.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_8.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_9.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_10.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_11.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_12.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_13.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_14.ForeColor = Color.White;
+            button_Analyze_SelectLectureBtn_15.ForeColor = Color.White;
+        }
+        private void SetCurAnalyzeProblem(int index)
+        {
+            curAnalyzeProblem = index;
+
+            DIsableAllAnalyzeProblem();
+
+            switch(index)
+            {
+                case 0:
+                    button_Analyze_SelectProblemBtn_1.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 1:
+                    button_Analyze_SelectProblemBtn_2.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 2:
+                    button_Analyze_SelectProblemBtn_3.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 3:
+                    button_Analyze_SelectProblemBtn_4.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+
+                case 4:
+                    button_Analyze_SelectProblemBtn_5.ForeColor = Color.FromArgb(253, 65, 60);
+                    break;
+            }
+
+            RefreshAnalyzeGraphs(curAnalyzeLecture, curAnalyzeProblem);
+        }
+        private void DIsableAllAnalyzeProblem()
+        {
+            button_Analyze_SelectProblemBtn_1.ForeColor = Color.White;
+            button_Analyze_SelectProblemBtn_2.ForeColor = Color.White;
+            button_Analyze_SelectProblemBtn_3.ForeColor = Color.White;
+            button_Analyze_SelectProblemBtn_4.ForeColor = Color.White;
+            button_Analyze_SelectProblemBtn_5.ForeColor = Color.White;
         }
         private void RefreshNews()
         {
@@ -628,12 +1064,37 @@ namespace StudyManagementApp
         private void RefreshSimpleAnalyzeGraph()
         {
             float worstRunTime = float.MinValue;
-            for(int index = 0; index < lectureManager.LectureDatas.Count; index++)
+            List<float> runTimeAve = new List<float>();
+            for (int index = 0; index < lectureManager.LectureDatas.Count; index++)
             {
-                if(lectureManager.LectureDatas[index].analyzeData.runTime > worstRunTime)
+                int temp = 0;
+                runTimeAve.Add(0.0f);
+                for(int problemIndex = 0; problemIndex < lectureManager.LectureDatas[index].analyzeDatas.Count; problemIndex++)
                 {
-                    worstRunTime = lectureManager.LectureDatas[index].analyzeData.runTime;
+                    for(int count = 0; count < lectureManager.LectureDatas[index].analyzeDatas[problemIndex].Count; count++)
+                    {
+                        runTimeAve[index] += lectureManager.LectureDatas[index].analyzeDatas[problemIndex][count].runTime;
+                        temp++;
+                    }
                 }
+
+                runTimeAve[index] /= temp;
+                if (runTimeAve[index] > worstRunTime)
+                {
+                    worstRunTime = runTimeAve[index];
+                }
+
+                //runTimeAve.Add(0.0f);
+                //for (int count = 0; count < lectureManager.LectureDatas[index].analyzeDatas.Count; count++)
+                //{
+                //    runTimeAve[index] += lectureManager.LectureDatas[index].analyzeDatas[problemIndex][count].runTime;
+                //}
+
+                //runTimeAve[index] /= lectureManager.LectureDatas[index].analyzeDatas.Count;
+                //if (runTimeAve[index] > worstRunTime)
+                //{
+                //    worstRunTime = runTimeAve[index];
+                //}
             }
 
             //  Y Axis Text Box
@@ -656,7 +1117,7 @@ namespace StudyManagementApp
 
                 int randumNum = random.Next(1, 6);
                 panel.Size = new Size(randumNum * 2 + 1, randumNum * 2 + 1);
-                panel.Location = new Point(107 + 20 * index - randumNum + 1, 436 - randumNum + 1 + 140 - (int)(140 * lectureManager.LectureDatas[index].analyzeData.runTime / worstRunTime));
+                panel.Location = new Point(107 + 20 * index - randumNum + 1, 436 - randumNum + 1 + 140 - (int)(140 * runTimeAve[index] / worstRunTime));
                 panel.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel.Width, panel.Height, randumNum, randumNum));
                 panel.BackColor = Color.FromArgb(248, 76, 72);
 
@@ -698,6 +1159,171 @@ namespace StudyManagementApp
 
             SetCurLecture(0);
             SetCurProblem(0);
+        }
+        private void RefreshAnalyzeGraphs(int lectureIndex, int problemIndex)
+        {
+            DisableAllAnalyzeGraphs();
+
+            Random random = new Random();
+
+            //  Runtime And Allocation Graph
+            float worstYAxisValue_RuntimeAndAllocation = float.MinValue;
+            for(int index = 0; index < lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count; index++)
+            {
+                if(lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].runTime > worstYAxisValue_RuntimeAndAllocation)
+                {
+                    worstYAxisValue_RuntimeAndAllocation = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].runTime;
+                }
+                if(lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].totalMemoryAllocation > worstYAxisValue_RuntimeAndAllocation)
+                {
+                    worstYAxisValue_RuntimeAndAllocation = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].totalMemoryAllocation;
+                }
+
+                //  Runtime Panel
+                int randNum = random.Next(1, 6);
+
+                analyze_runtimePanels[index].Visible = true;
+                analyze_runtimePanels[index].Enabled = true;
+                analyze_runtimePanels[index].Size = new Size(randNum * 2, randNum * 2);
+                analyze_runtimePanels[index].Location = new Point(100 - randNum + 60 * index, 370 - randNum - (int)(120 * lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].runTime / worstYAxisValue_RuntimeAndAllocation));
+                analyze_runtimePanels[index].Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, analyze_runtimePanels[index].Width, analyze_runtimePanels[index].Height, randNum, randNum));
+
+                //  Allocation Panel
+                randNum = random.Next(1, 6);
+                analyze_allocationPanels[index].Visible = true;
+                analyze_allocationPanels[index].Enabled = true;
+                analyze_allocationPanels[index].Size = new Size(randNum * 2, randNum * 2);
+                analyze_allocationPanels[index].Location = new Point(100 - randNum + 60 * index, 370 - randNum - (int)(120 * lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].totalMemoryAllocation / worstYAxisValue_RuntimeAndAllocation));
+                analyze_allocationPanels[index].Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, analyze_allocationPanels[index].Width, analyze_allocationPanels[index].Height, randNum, randNum));
+            }
+
+            float runtimeAndAllocationUnit = worstYAxisValue_RuntimeAndAllocation / 6.0f;
+            textBox_Analyze_RuntimeAndAllocation_Y_2.Text = (runtimeAndAllocationUnit).ToString("000.00") + " ms/mb";
+            textBox_Analyze_RuntimeAndAllocation_Y_3.Text = (runtimeAndAllocationUnit * 2.0f).ToString("000.00") + " ms/mb";
+            textBox_Analyze_RuntimeAndAllocation_Y_4.Text = (runtimeAndAllocationUnit * 3.0f).ToString("000.00") + " ms/mb";
+            textBox_Analyze_RuntimeAndAllocation_Y_5.Text = (runtimeAndAllocationUnit * 4.0f).ToString("000.00") + " ms/mb";
+            textBox_Analyze_RuntimeAndAllocation_Y_6.Text = (runtimeAndAllocationUnit * 5.0f).ToString("000.00") + " ms/mb";
+            textBox_Analyze_RuntimeAndAllocation_Y_7.Text = (runtimeAndAllocationUnit * 6.0f).ToString("000.00") + " ms/mb";
+
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 1)
+            {
+                textBox_Analyze_RuntimeAndAllocation_X_1.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][0].param;
+            }
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 2)
+            {
+                textBox_Analyze_RuntimeAndAllocation_X_2.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][1].param;
+            }
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 3)
+            {
+                textBox_Analyze_RuntimeAndAllocation_X_3.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][2].param;
+            }
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 4)
+            {
+                textBox_Analyze_RuntimeAndAllocation_X_4.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][3].param;
+            }
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 5)
+            {
+                textBox_Analyze_RuntimeAndAllocation_X_5.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][4].param;
+            }
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 6)
+            {
+                textBox_Analyze_RuntimeAndAllocation_X_6.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][5].param;
+            }
+
+            //  GC Graph
+            float worstYAxisValue_GC = float.MinValue;
+            for (int index = 0; index < lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count; index++)
+            {
+                if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].GC_Gen1 > worstYAxisValue_GC)
+                {
+                    worstYAxisValue_GC = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].GC_Gen1;
+                }
+                if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].GC_Gen2 > worstYAxisValue_GC)
+                {
+                    worstYAxisValue_GC = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].GC_Gen2;
+                }
+                if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].GC_Gen3 > worstYAxisValue_GC)
+                {
+                    worstYAxisValue_GC = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].GC_Gen3;
+                }
+
+                //  GC1 Panel
+                int randNum = random.Next(1, 6);
+
+                analyze_GC1Panels[index].Visible = true;
+                analyze_GC1Panels[index].Enabled = true;
+                analyze_GC1Panels[index].Size = new Size(randNum * 2, randNum * 2);
+                analyze_GC1Panels[index].Location = new Point(315 - randNum + 60 * index, 583 - randNum - (int)(120 * lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].GC_Gen1 / worstYAxisValue_GC));
+                analyze_GC1Panels[index].Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, analyze_GC1Panels[index].Width, analyze_GC1Panels[index].Height, randNum, randNum));
+
+                //  GC2 Panel
+                randNum = random.Next(1, 6);
+                analyze_GC2Panels[index].Visible = true;
+                analyze_GC2Panels[index].Enabled = true;
+                analyze_GC2Panels[index].Size = new Size(randNum * 2, randNum * 2);
+                analyze_GC2Panels[index].Location = new Point(315 - randNum + 60 * index, 583 - randNum - (int)(120 * lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].GC_Gen2 / worstYAxisValue_GC));
+                analyze_GC2Panels[index].Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, analyze_GC2Panels[index].Width, analyze_GC2Panels[index].Height, randNum, randNum));
+
+                //  GC3 Panel
+                randNum = random.Next(1, 6);
+                analyze_GC3Panels[index].Visible = true;
+                analyze_GC3Panels[index].Enabled = true;
+                analyze_GC3Panels[index].Size = new Size(randNum * 2, randNum * 2);
+                analyze_GC3Panels[index].Location = new Point(315 - randNum + 60 * index, 583 - randNum - (int)(120 * lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][index].GC_Gen3 / worstYAxisValue_GC));
+                analyze_GC3Panels[index].Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, analyze_GC3Panels[index].Width, analyze_GC3Panels[index].Height, randNum, randNum));
+            }
+
+            float GCUnit = worstYAxisValue_GC / 6.0f;
+            textBox_Analyze_GC_Y_2.Text = (GCUnit).ToString("000.00") + " mb";
+            textBox_Analyze_GC_Y_3.Text = (GCUnit * 2.0f).ToString("000.00") + " mb";
+            textBox_Analyze_GC_Y_4.Text = (GCUnit * 3.0f).ToString("000.00") + " mb";
+            textBox_Analyze_GC_Y_5.Text = (GCUnit * 4.0f).ToString("000.00") + " mb";
+            textBox_Analyze_GC_Y_6.Text = (GCUnit * 5.0f).ToString("000.00") + " mb";
+            textBox_Analyze_GC_Y_7.Text = (GCUnit * 6.0f).ToString("000.00") + " mb";
+
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 1)
+            {
+                textBox_Analyze_GC_X_1.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][0].param;
+            }
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 2)
+            {
+                textBox_Analyze_GC_X_2.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][1].param;
+            }
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 3)
+            {
+                textBox_Analyze_GC_X_3.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][2].param;
+            }
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 4)
+            {
+                textBox_Analyze_GC_X_4.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][3].param;
+            }
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 5)
+            {
+                textBox_Analyze_GC_X_5.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][4].param;
+            }
+            if (lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex].Count >= 6)
+            {
+                textBox_Analyze_GC_X_6.Text = lectureManager.LectureDatas[lectureIndex].analyzeDatas[problemIndex][5].param;
+            }
+
+            random = null;
+        }
+        private void DisableAllAnalyzeGraphs()
+        {
+            for(int index = 0; index < 6; index++)
+            {
+                analyze_runtimePanels[index].Visible = false;
+                analyze_allocationPanels[index].Visible = false;
+                analyze_GC1Panels[index].Visible = false;
+                analyze_GC2Panels[index].Visible = false;
+                analyze_GC3Panels[index].Visible = false;
+
+                analyze_runtimePanels[index].Enabled = false;
+                analyze_allocationPanels[index].Enabled = false;
+                analyze_GC1Panels[index].Enabled = false;
+                analyze_GC2Panels[index].Enabled = false;
+                analyze_GC3Panels[index].Enabled = false;
+            }
         }
 
 
@@ -881,6 +1507,88 @@ namespace StudyManagementApp
         private void button_Lecture_LecturesBtn_15_Click(object sender, EventArgs e)
         {
             SetCurLecture(14);
+        }
+
+        private void button_Analyze_SelectLectureBtn_1_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(0);
+        }
+        private void button_Analyze_SelectLectureBtn_2_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(1);
+        }
+        private void button_Analyze_SelectLectureBtn_3_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(2);
+        }
+        private void button_Analyze_SelectLectureBtn_4_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(3);
+        }
+        private void button_Analyze_SelectLectureBtn_5_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(4);
+        }
+        private void button_Analyze_SelectLectureBtn_6_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(5);
+        }
+        private void button_Analyze_SelectLectureBtn_7_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(6);
+        }
+        private void button_Analyze_SelectLectureBtn_8_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(7);
+        }
+        private void button_Analyze_SelectLectureBtn_9_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(8);
+        }
+        private void button_Analyze_SelectLectureBtn_10_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(9);
+        }
+        private void button_Analyze_SelectLectureBtn_11_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(10);
+        }
+        private void button_Analyze_SelectLectureBtn_12_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(11);
+        }
+        private void button_Analyze_SelectLectureBtn_13_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(12);
+        }
+        private void button_Analyze_SelectLectureBtn_14_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(13);
+        }
+        private void button_Analyze_SelectLectureBtn_15_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeLecture(14);
+        }
+
+        private void button_Analyze_SelectProblemBtn_1_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeProblem(0);
+        }
+        private void button_Analyze_SelectProblemBtn_2_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeProblem(1);
+        }
+        private void button_Analyze_SelectProblemBtn_3_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeProblem(2);
+        }
+        private void button_Analyze_SelectProblemBtn_4_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeProblem(3);
+        }
+        private void button_Analyze_SelectProblemBtn_5_Click(object sender, EventArgs e)
+        {
+            SetCurAnalyzeProblem(4);
         }
 
         private void button_Lecture_ProblemBtn_1_Click(object sender, EventArgs e)
