@@ -249,6 +249,102 @@ namespace StudyManagementApp
             this.button_Lecture_LecturesBtn_2 = new System.Windows.Forms.Button();
             this.button_Lecture_LecturesBtn_1 = new System.Windows.Forms.Button();
             this.panel_Analyze_AnalyzeBack = new System.Windows.Forms.Panel();
+            this.panel_Analyze_SelectProblemBack = new System.Windows.Forms.Panel();
+            this.panel_Analyze_SelectProblem_MainBack = new System.Windows.Forms.Panel();
+            this.button_Analyze_SelectProblemBtn_5 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectProblemBtn_4 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectProblemBtn_3 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectProblemBtn_2 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectProblemBtn_1 = new System.Windows.Forms.Button();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.panel_Analyze_SelectLectureBack = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack = new System.Windows.Forms.FlowLayoutPanel();
+            this.button_Analyze_SelectLectureBtn_1 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_2 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_3 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_4 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_5 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_6 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_7 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_8 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_9 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_10 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_11 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_12 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_13 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_14 = new System.Windows.Forms.Button();
+            this.button_Analyze_SelectLectureBtn_15 = new System.Windows.Forms.Button();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.panel_Analyze_Edgy_2 = new System.Windows.Forms.Panel();
+            this.panel_Analyze_Edgy_1 = new System.Windows.Forms.Panel();
+            this.panel_Analyze_GCGraphBack = new System.Windows.Forms.Panel();
+            this.textBox49 = new System.Windows.Forms.TextBox();
+            this.panel73 = new System.Windows.Forms.Panel();
+            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.panel72 = new System.Windows.Forms.Panel();
+            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.panel71 = new System.Windows.Forms.Panel();
+            this.panel_432412 = new System.Windows.Forms.Panel();
+            this.panel74 = new System.Windows.Forms.Panel();
+            this.panel_Analyze_RuntimeAndAllocationGraphBack = new System.Windows.Forms.Panel();
+            this.panel85 = new System.Windows.Forms.Panel();
+            this.panel84 = new System.Windows.Forms.Panel();
+            this.panel83 = new System.Windows.Forms.Panel();
+            this.panel82 = new System.Windows.Forms.Panel();
+            this.panel81 = new System.Windows.Forms.Panel();
+            this.panel80 = new System.Windows.Forms.Panel();
+            this.panel79 = new System.Windows.Forms.Panel();
+            this.panel78 = new System.Windows.Forms.Panel();
+            this.panel77 = new System.Windows.Forms.Panel();
+            this.panel76 = new System.Windows.Forms.Panel();
+            this.panel75 = new System.Windows.Forms.Panel();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.panel70 = new System.Windows.Forms.Panel();
+            this.panel69 = new System.Windows.Forms.Panel();
+            this.panel86 = new System.Windows.Forms.Panel();
+            this.panel87 = new System.Windows.Forms.Panel();
+            this.textBox50 = new System.Windows.Forms.TextBox();
+            this.textBox51 = new System.Windows.Forms.TextBox();
+            this.textBox52 = new System.Windows.Forms.TextBox();
+            this.textBox53 = new System.Windows.Forms.TextBox();
+            this.textBox54 = new System.Windows.Forms.TextBox();
+            this.textBox55 = new System.Windows.Forms.TextBox();
+            this.textBox56 = new System.Windows.Forms.TextBox();
+            this.textBox57 = new System.Windows.Forms.TextBox();
+            this.textBox58 = new System.Windows.Forms.TextBox();
+            this.textBox59 = new System.Windows.Forms.TextBox();
+            this.textBox60 = new System.Windows.Forms.TextBox();
+            this.textBox61 = new System.Windows.Forms.TextBox();
+            this.textBox62 = new System.Windows.Forms.TextBox();
+            this.textBox63 = new System.Windows.Forms.TextBox();
+            this.textBox64 = new System.Windows.Forms.TextBox();
+            this.textBox65 = new System.Windows.Forms.TextBox();
+            this.textBox66 = new System.Windows.Forms.TextBox();
+            this.textBox67 = new System.Windows.Forms.TextBox();
+            this.textBox68 = new System.Windows.Forms.TextBox();
+            this.textBox69 = new System.Windows.Forms.TextBox();
+            this.textBox70 = new System.Windows.Forms.TextBox();
+            this.textBox71 = new System.Windows.Forms.TextBox();
+            this.textBox72 = new System.Windows.Forms.TextBox();
+            this.textBox73 = new System.Windows.Forms.TextBox();
+            this.textBox74 = new System.Windows.Forms.TextBox();
+            this.textBox75 = new System.Windows.Forms.TextBox();
+            this.panel88 = new System.Windows.Forms.Panel();
+            this.panel89 = new System.Windows.Forms.Panel();
+            this.panel90 = new System.Windows.Forms.Panel();
+            this.panel91 = new System.Windows.Forms.Panel();
+            this.panel92 = new System.Windows.Forms.Panel();
+            this.panel93 = new System.Windows.Forms.Panel();
+            this.panel94 = new System.Windows.Forms.Panel();
+            this.panel95 = new System.Windows.Forms.Panel();
+            this.panel96 = new System.Windows.Forms.Panel();
+            this.panel97 = new System.Windows.Forms.Panel();
+            this.panel98 = new System.Windows.Forms.Panel();
+            this.panel99 = new System.Windows.Forms.Panel();
+            this.panel100 = new System.Windows.Forms.Panel();
             this.panel_RightBack.SuspendLayout();
             this.panel_SignFailBack.SuspendLayout();
             this.panel_SignUpBack.SuspendLayout();
@@ -286,6 +382,14 @@ namespace StudyManagementApp
             this.panel_Lecture_LecturesBack.SuspendLayout();
             this.panel_Lecture_ProblemsBack.SuspendLayout();
             this.panel_Lecture_MainBack.SuspendLayout();
+            this.panel_Analyze_AnalyzeBack.SuspendLayout();
+            this.panel_Analyze_SelectProblemBack.SuspendLayout();
+            this.panel_Analyze_SelectProblem_MainBack.SuspendLayout();
+            this.panel_Analyze_SelectLectureBack.SuspendLayout();
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.SuspendLayout();
+            this.panel_Analyze_GCGraphBack.SuspendLayout();
+            this.panel_432412.SuspendLayout();
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel_RightBack
@@ -2892,10 +2996,1141 @@ namespace StudyManagementApp
             // 
             // panel_Analyze_AnalyzeBack
             // 
+            this.panel_Analyze_AnalyzeBack.Controls.Add(this.panel_Analyze_SelectProblemBack);
+            this.panel_Analyze_AnalyzeBack.Controls.Add(this.panel_Analyze_SelectLectureBack);
+            this.panel_Analyze_AnalyzeBack.Controls.Add(this.panel_Analyze_Edgy_2);
+            this.panel_Analyze_AnalyzeBack.Controls.Add(this.panel_Analyze_Edgy_1);
+            this.panel_Analyze_AnalyzeBack.Controls.Add(this.panel_Analyze_GCGraphBack);
+            this.panel_Analyze_AnalyzeBack.Controls.Add(this.panel_432412);
+            this.panel_Analyze_AnalyzeBack.Controls.Add(this.panel_Analyze_RuntimeAndAllocationGraphBack);
             this.panel_Analyze_AnalyzeBack.Location = new System.Drawing.Point(30, 190);
             this.panel_Analyze_AnalyzeBack.Name = "panel_Analyze_AnalyzeBack";
             this.panel_Analyze_AnalyzeBack.Size = new System.Drawing.Size(624, 441);
             this.panel_Analyze_AnalyzeBack.TabIndex = 24;
+            // 
+            // panel_Analyze_SelectProblemBack
+            // 
+            this.panel_Analyze_SelectProblemBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.panel_Analyze_SelectProblemBack.Controls.Add(this.panel_Analyze_SelectProblem_MainBack);
+            this.panel_Analyze_SelectProblemBack.Controls.Add(this.textBox41);
+            this.panel_Analyze_SelectProblemBack.Location = new System.Drawing.Point(14, 223);
+            this.panel_Analyze_SelectProblemBack.Name = "panel_Analyze_SelectProblemBack";
+            this.panel_Analyze_SelectProblemBack.Size = new System.Drawing.Size(200, 197);
+            this.panel_Analyze_SelectProblemBack.TabIndex = 3;
+            // 
+            // panel_Analyze_SelectProblem_MainBack
+            // 
+            this.panel_Analyze_SelectProblem_MainBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(39)))));
+            this.panel_Analyze_SelectProblem_MainBack.Controls.Add(this.button_Analyze_SelectProblemBtn_5);
+            this.panel_Analyze_SelectProblem_MainBack.Controls.Add(this.button_Analyze_SelectProblemBtn_4);
+            this.panel_Analyze_SelectProblem_MainBack.Controls.Add(this.button_Analyze_SelectProblemBtn_3);
+            this.panel_Analyze_SelectProblem_MainBack.Controls.Add(this.button_Analyze_SelectProblemBtn_2);
+            this.panel_Analyze_SelectProblem_MainBack.Controls.Add(this.button_Analyze_SelectProblemBtn_1);
+            this.panel_Analyze_SelectProblem_MainBack.Location = new System.Drawing.Point(10, 50);
+            this.panel_Analyze_SelectProblem_MainBack.Name = "panel_Analyze_SelectProblem_MainBack";
+            this.panel_Analyze_SelectProblem_MainBack.Size = new System.Drawing.Size(180, 137);
+            this.panel_Analyze_SelectProblem_MainBack.TabIndex = 2;
+            // 
+            // button_Analyze_SelectProblemBtn_5
+            // 
+            this.button_Analyze_SelectProblemBtn_5.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectProblemBtn_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectProblemBtn_5.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectProblemBtn_5.Location = new System.Drawing.Point(10, 103);
+            this.button_Analyze_SelectProblemBtn_5.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectProblemBtn_5.Name = "button_Analyze_SelectProblemBtn_5";
+            this.button_Analyze_SelectProblemBtn_5.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectProblemBtn_5.TabIndex = 33;
+            this.button_Analyze_SelectProblemBtn_5.Text = "Q 5";
+            this.button_Analyze_SelectProblemBtn_5.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectProblemBtn_4
+            // 
+            this.button_Analyze_SelectProblemBtn_4.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectProblemBtn_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectProblemBtn_4.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectProblemBtn_4.Location = new System.Drawing.Point(10, 80);
+            this.button_Analyze_SelectProblemBtn_4.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectProblemBtn_4.Name = "button_Analyze_SelectProblemBtn_4";
+            this.button_Analyze_SelectProblemBtn_4.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectProblemBtn_4.TabIndex = 32;
+            this.button_Analyze_SelectProblemBtn_4.Text = "Q 4";
+            this.button_Analyze_SelectProblemBtn_4.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectProblemBtn_3
+            // 
+            this.button_Analyze_SelectProblemBtn_3.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectProblemBtn_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectProblemBtn_3.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectProblemBtn_3.Location = new System.Drawing.Point(10, 57);
+            this.button_Analyze_SelectProblemBtn_3.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectProblemBtn_3.Name = "button_Analyze_SelectProblemBtn_3";
+            this.button_Analyze_SelectProblemBtn_3.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectProblemBtn_3.TabIndex = 31;
+            this.button_Analyze_SelectProblemBtn_3.Text = "Q 3";
+            this.button_Analyze_SelectProblemBtn_3.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectProblemBtn_2
+            // 
+            this.button_Analyze_SelectProblemBtn_2.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectProblemBtn_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectProblemBtn_2.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectProblemBtn_2.Location = new System.Drawing.Point(10, 34);
+            this.button_Analyze_SelectProblemBtn_2.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectProblemBtn_2.Name = "button_Analyze_SelectProblemBtn_2";
+            this.button_Analyze_SelectProblemBtn_2.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectProblemBtn_2.TabIndex = 30;
+            this.button_Analyze_SelectProblemBtn_2.Text = "Q 2";
+            this.button_Analyze_SelectProblemBtn_2.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectProblemBtn_1
+            // 
+            this.button_Analyze_SelectProblemBtn_1.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectProblemBtn_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectProblemBtn_1.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectProblemBtn_1.Location = new System.Drawing.Point(10, 11);
+            this.button_Analyze_SelectProblemBtn_1.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectProblemBtn_1.Name = "button_Analyze_SelectProblemBtn_1";
+            this.button_Analyze_SelectProblemBtn_1.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectProblemBtn_1.TabIndex = 29;
+            this.button_Analyze_SelectProblemBtn_1.Text = "Q 1";
+            this.button_Analyze_SelectProblemBtn_1.UseVisualStyleBackColor = true;
+            // 
+            // textBox41
+            // 
+            this.textBox41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox41.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox41.Font = new System.Drawing.Font("Franklin Gothic Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox41.ForeColor = System.Drawing.Color.White;
+            this.textBox41.Location = new System.Drawing.Point(15, 15);
+            this.textBox41.Name = "textBox41";
+            this.textBox41.Size = new System.Drawing.Size(100, 16);
+            this.textBox41.TabIndex = 1;
+            this.textBox41.Text = "Select Problem";
+            // 
+            // panel_Analyze_SelectLectureBack
+            // 
+            this.panel_Analyze_SelectLectureBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.panel_Analyze_SelectLectureBack.Controls.Add(this.flowLayoutPanel_Analyze_SelectLecture_FlowBack);
+            this.panel_Analyze_SelectLectureBack.Controls.Add(this.textBox40);
+            this.panel_Analyze_SelectLectureBack.Location = new System.Drawing.Point(409, 10);
+            this.panel_Analyze_SelectLectureBack.Name = "panel_Analyze_SelectLectureBack";
+            this.panel_Analyze_SelectLectureBack.Size = new System.Drawing.Size(200, 197);
+            this.panel_Analyze_SelectLectureBack.TabIndex = 2;
+            // 
+            // flowLayoutPanel_Analyze_SelectLecture_FlowBack
+            // 
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.AutoScroll = true;
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(36)))), ((int)(((byte)(39)))));
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_1);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_2);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_3);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_4);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_5);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_6);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_7);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_8);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_9);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_10);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_11);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_12);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_13);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_14);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Controls.Add(this.button_Analyze_SelectLectureBtn_15);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Location = new System.Drawing.Point(10, 50);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Name = "flowLayoutPanel_Analyze_SelectLecture_FlowBack";
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.Size = new System.Drawing.Size(180, 137);
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.TabIndex = 1;
+            // 
+            // button_Analyze_SelectLectureBtn_1
+            // 
+            this.button_Analyze_SelectLectureBtn_1.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_1.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_1.Location = new System.Drawing.Point(0, 0);
+            this.button_Analyze_SelectLectureBtn_1.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_1.Name = "button_Analyze_SelectLectureBtn_1";
+            this.button_Analyze_SelectLectureBtn_1.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_1.TabIndex = 14;
+            this.button_Analyze_SelectLectureBtn_1.Text = "button1";
+            this.button_Analyze_SelectLectureBtn_1.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_2
+            // 
+            this.button_Analyze_SelectLectureBtn_2.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_2.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_2.Location = new System.Drawing.Point(0, 23);
+            this.button_Analyze_SelectLectureBtn_2.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_2.Name = "button_Analyze_SelectLectureBtn_2";
+            this.button_Analyze_SelectLectureBtn_2.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_2.TabIndex = 15;
+            this.button_Analyze_SelectLectureBtn_2.Text = "button2";
+            this.button_Analyze_SelectLectureBtn_2.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_3
+            // 
+            this.button_Analyze_SelectLectureBtn_3.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_3.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_3.Location = new System.Drawing.Point(0, 46);
+            this.button_Analyze_SelectLectureBtn_3.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_3.Name = "button_Analyze_SelectLectureBtn_3";
+            this.button_Analyze_SelectLectureBtn_3.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_3.TabIndex = 16;
+            this.button_Analyze_SelectLectureBtn_3.Text = "button3";
+            this.button_Analyze_SelectLectureBtn_3.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_4
+            // 
+            this.button_Analyze_SelectLectureBtn_4.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_4.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_4.Location = new System.Drawing.Point(0, 69);
+            this.button_Analyze_SelectLectureBtn_4.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_4.Name = "button_Analyze_SelectLectureBtn_4";
+            this.button_Analyze_SelectLectureBtn_4.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_4.TabIndex = 17;
+            this.button_Analyze_SelectLectureBtn_4.Text = "button4";
+            this.button_Analyze_SelectLectureBtn_4.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_5
+            // 
+            this.button_Analyze_SelectLectureBtn_5.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_5.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_5.Location = new System.Drawing.Point(0, 92);
+            this.button_Analyze_SelectLectureBtn_5.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_5.Name = "button_Analyze_SelectLectureBtn_5";
+            this.button_Analyze_SelectLectureBtn_5.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_5.TabIndex = 18;
+            this.button_Analyze_SelectLectureBtn_5.Text = "button5";
+            this.button_Analyze_SelectLectureBtn_5.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_6
+            // 
+            this.button_Analyze_SelectLectureBtn_6.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_6.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_6.Location = new System.Drawing.Point(0, 115);
+            this.button_Analyze_SelectLectureBtn_6.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_6.Name = "button_Analyze_SelectLectureBtn_6";
+            this.button_Analyze_SelectLectureBtn_6.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_6.TabIndex = 19;
+            this.button_Analyze_SelectLectureBtn_6.Text = "button6";
+            this.button_Analyze_SelectLectureBtn_6.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_7
+            // 
+            this.button_Analyze_SelectLectureBtn_7.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_7.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_7.Location = new System.Drawing.Point(0, 138);
+            this.button_Analyze_SelectLectureBtn_7.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_7.Name = "button_Analyze_SelectLectureBtn_7";
+            this.button_Analyze_SelectLectureBtn_7.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_7.TabIndex = 20;
+            this.button_Analyze_SelectLectureBtn_7.Text = "button7";
+            this.button_Analyze_SelectLectureBtn_7.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_8
+            // 
+            this.button_Analyze_SelectLectureBtn_8.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_8.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_8.Location = new System.Drawing.Point(0, 161);
+            this.button_Analyze_SelectLectureBtn_8.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_8.Name = "button_Analyze_SelectLectureBtn_8";
+            this.button_Analyze_SelectLectureBtn_8.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_8.TabIndex = 21;
+            this.button_Analyze_SelectLectureBtn_8.Text = "button8";
+            this.button_Analyze_SelectLectureBtn_8.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_9
+            // 
+            this.button_Analyze_SelectLectureBtn_9.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_9.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_9.Location = new System.Drawing.Point(0, 184);
+            this.button_Analyze_SelectLectureBtn_9.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_9.Name = "button_Analyze_SelectLectureBtn_9";
+            this.button_Analyze_SelectLectureBtn_9.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_9.TabIndex = 22;
+            this.button_Analyze_SelectLectureBtn_9.Text = "button9";
+            this.button_Analyze_SelectLectureBtn_9.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_10
+            // 
+            this.button_Analyze_SelectLectureBtn_10.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_10.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_10.Location = new System.Drawing.Point(0, 207);
+            this.button_Analyze_SelectLectureBtn_10.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_10.Name = "button_Analyze_SelectLectureBtn_10";
+            this.button_Analyze_SelectLectureBtn_10.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_10.TabIndex = 23;
+            this.button_Analyze_SelectLectureBtn_10.Text = "button10";
+            this.button_Analyze_SelectLectureBtn_10.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_11
+            // 
+            this.button_Analyze_SelectLectureBtn_11.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_11.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_11.Location = new System.Drawing.Point(0, 230);
+            this.button_Analyze_SelectLectureBtn_11.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_11.Name = "button_Analyze_SelectLectureBtn_11";
+            this.button_Analyze_SelectLectureBtn_11.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_11.TabIndex = 24;
+            this.button_Analyze_SelectLectureBtn_11.Text = "button11";
+            this.button_Analyze_SelectLectureBtn_11.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_12
+            // 
+            this.button_Analyze_SelectLectureBtn_12.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_12.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_12.Location = new System.Drawing.Point(0, 253);
+            this.button_Analyze_SelectLectureBtn_12.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_12.Name = "button_Analyze_SelectLectureBtn_12";
+            this.button_Analyze_SelectLectureBtn_12.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_12.TabIndex = 25;
+            this.button_Analyze_SelectLectureBtn_12.Text = "button12";
+            this.button_Analyze_SelectLectureBtn_12.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_13
+            // 
+            this.button_Analyze_SelectLectureBtn_13.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_13.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_13.Location = new System.Drawing.Point(0, 276);
+            this.button_Analyze_SelectLectureBtn_13.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_13.Name = "button_Analyze_SelectLectureBtn_13";
+            this.button_Analyze_SelectLectureBtn_13.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_13.TabIndex = 26;
+            this.button_Analyze_SelectLectureBtn_13.Text = "button13";
+            this.button_Analyze_SelectLectureBtn_13.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_14
+            // 
+            this.button_Analyze_SelectLectureBtn_14.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_14.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_14.Location = new System.Drawing.Point(0, 299);
+            this.button_Analyze_SelectLectureBtn_14.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_14.Name = "button_Analyze_SelectLectureBtn_14";
+            this.button_Analyze_SelectLectureBtn_14.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_14.TabIndex = 27;
+            this.button_Analyze_SelectLectureBtn_14.Text = "button14";
+            this.button_Analyze_SelectLectureBtn_14.UseVisualStyleBackColor = true;
+            // 
+            // button_Analyze_SelectLectureBtn_15
+            // 
+            this.button_Analyze_SelectLectureBtn_15.FlatAppearance.BorderSize = 0;
+            this.button_Analyze_SelectLectureBtn_15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Analyze_SelectLectureBtn_15.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Analyze_SelectLectureBtn_15.Location = new System.Drawing.Point(0, 322);
+            this.button_Analyze_SelectLectureBtn_15.Margin = new System.Windows.Forms.Padding(0);
+            this.button_Analyze_SelectLectureBtn_15.Name = "button_Analyze_SelectLectureBtn_15";
+            this.button_Analyze_SelectLectureBtn_15.Size = new System.Drawing.Size(160, 23);
+            this.button_Analyze_SelectLectureBtn_15.TabIndex = 28;
+            this.button_Analyze_SelectLectureBtn_15.Text = "button15";
+            this.button_Analyze_SelectLectureBtn_15.UseVisualStyleBackColor = true;
+            // 
+            // textBox40
+            // 
+            this.textBox40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox40.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox40.Font = new System.Drawing.Font("Franklin Gothic Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox40.ForeColor = System.Drawing.Color.White;
+            this.textBox40.Location = new System.Drawing.Point(15, 15);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(100, 16);
+            this.textBox40.TabIndex = 0;
+            this.textBox40.Text = "Select Lecture";
+            // 
+            // panel_Analyze_Edgy_2
+            // 
+            this.panel_Analyze_Edgy_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
+            this.panel_Analyze_Edgy_2.Location = new System.Drawing.Point(393, 99);
+            this.panel_Analyze_Edgy_2.Name = "panel_Analyze_Edgy_2";
+            this.panel_Analyze_Edgy_2.Size = new System.Drawing.Size(79, 125);
+            this.panel_Analyze_Edgy_2.TabIndex = 1;
+            // 
+            // panel_Analyze_Edgy_1
+            // 
+            this.panel_Analyze_Edgy_1.Location = new System.Drawing.Point(157, 207);
+            this.panel_Analyze_Edgy_1.Name = "panel_Analyze_Edgy_1";
+            this.panel_Analyze_Edgy_1.Size = new System.Drawing.Size(74, 120);
+            this.panel_Analyze_Edgy_1.TabIndex = 3;
+            // 
+            // panel_Analyze_GCGraphBack
+            // 
+            this.panel_Analyze_GCGraphBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox63);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox49);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox64);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel73);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox65);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox47);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox66);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel72);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox67);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox46);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox68);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox43);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox69);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel71);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox70);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel90);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox71);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel100);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox72);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel99);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox73);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel98);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox74);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel97);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.textBox75);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel96);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel88);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel95);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel89);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel94);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel93);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel91);
+            this.panel_Analyze_GCGraphBack.Controls.Add(this.panel92);
+            this.panel_Analyze_GCGraphBack.Location = new System.Drawing.Point(230, 223);
+            this.panel_Analyze_GCGraphBack.Name = "panel_Analyze_GCGraphBack";
+            this.panel_Analyze_GCGraphBack.Size = new System.Drawing.Size(379, 197);
+            this.panel_Analyze_GCGraphBack.TabIndex = 2;
+            // 
+            // textBox49
+            // 
+            this.textBox49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox49.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox49.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox49.ForeColor = System.Drawing.Color.Gray;
+            this.textBox49.Location = new System.Drawing.Point(202, 16);
+            this.textBox49.Name = "textBox49";
+            this.textBox49.Size = new System.Drawing.Size(30, 14);
+            this.textBox49.TabIndex = 40;
+            this.textBox49.Text = "Gen 1";
+            // 
+            // panel73
+            // 
+            this.panel73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(188)))), ((int)(((byte)(44)))));
+            this.panel73.Location = new System.Drawing.Point(185, 20);
+            this.panel73.Name = "panel73";
+            this.panel73.Size = new System.Drawing.Size(10, 10);
+            this.panel73.TabIndex = 39;
+            // 
+            // textBox47
+            // 
+            this.textBox47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox47.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox47.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox47.ForeColor = System.Drawing.Color.Gray;
+            this.textBox47.Location = new System.Drawing.Point(267, 16);
+            this.textBox47.Name = "textBox47";
+            this.textBox47.Size = new System.Drawing.Size(30, 14);
+            this.textBox47.TabIndex = 38;
+            this.textBox47.Text = "Gen 2";
+            // 
+            // panel72
+            // 
+            this.panel72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(76)))), ((int)(((byte)(72)))));
+            this.panel72.Location = new System.Drawing.Point(250, 20);
+            this.panel72.Name = "panel72";
+            this.panel72.Size = new System.Drawing.Size(10, 10);
+            this.panel72.TabIndex = 37;
+            // 
+            // textBox46
+            // 
+            this.textBox46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox46.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox46.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox46.ForeColor = System.Drawing.Color.Gray;
+            this.textBox46.Location = new System.Drawing.Point(332, 16);
+            this.textBox46.Name = "textBox46";
+            this.textBox46.Size = new System.Drawing.Size(30, 14);
+            this.textBox46.TabIndex = 36;
+            this.textBox46.Text = "Gen 3";
+            // 
+            // textBox43
+            // 
+            this.textBox43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox43.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox43.Font = new System.Drawing.Font("Franklin Gothic Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox43.ForeColor = System.Drawing.Color.White;
+            this.textBox43.Location = new System.Drawing.Point(15, 15);
+            this.textBox43.Name = "textBox43";
+            this.textBox43.Size = new System.Drawing.Size(106, 16);
+            this.textBox43.TabIndex = 2;
+            this.textBox43.Text = "Garbage Collector";
+            this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // panel71
+            // 
+            this.panel71.BackColor = System.Drawing.Color.Lime;
+            this.panel71.Location = new System.Drawing.Point(315, 20);
+            this.panel71.Name = "panel71";
+            this.panel71.Size = new System.Drawing.Size(10, 10);
+            this.panel71.TabIndex = 35;
+            // 
+            // panel_432412
+            // 
+            this.panel_432412.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.panel_432412.Controls.Add(this.panel74);
+            this.panel_432412.Location = new System.Drawing.Point(210, 197);
+            this.panel_432412.Name = "panel_432412";
+            this.panel_432412.Size = new System.Drawing.Size(204, 50);
+            this.panel_432412.TabIndex = 1;
+            // 
+            // panel74
+            // 
+            this.panel74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel74.Location = new System.Drawing.Point(41, 18);
+            this.panel74.Name = "panel74";
+            this.panel74.Size = new System.Drawing.Size(120, 1);
+            this.panel74.TabIndex = 0;
+            // 
+            // panel_Analyze_RuntimeAndAllocationGraphBack
+            // 
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox62);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox61);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox60);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox59);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox58);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox57);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox56);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox55);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox54);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox53);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox52);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox51);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox50);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel87);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel86);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel85);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel84);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel83);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel82);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel81);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel80);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel79);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel78);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel77);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel76);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel75);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox44);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox42);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.textBox45);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel70);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Controls.Add(this.panel69);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Location = new System.Drawing.Point(15, 10);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Name = "panel_Analyze_RuntimeAndAllocationGraphBack";
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.Size = new System.Drawing.Size(379, 197);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.TabIndex = 0;
+            // 
+            // panel85
+            // 
+            this.panel85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel85.Location = new System.Drawing.Point(235, 50);
+            this.panel85.Name = "panel85";
+            this.panel85.Size = new System.Drawing.Size(1, 120);
+            this.panel85.TabIndex = 39;
+            // 
+            // panel84
+            // 
+            this.panel84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel84.Location = new System.Drawing.Point(175, 50);
+            this.panel84.Name = "panel84";
+            this.panel84.Size = new System.Drawing.Size(1, 120);
+            this.panel84.TabIndex = 38;
+            // 
+            // panel83
+            // 
+            this.panel83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel83.Location = new System.Drawing.Point(115, 50);
+            this.panel83.Name = "panel83";
+            this.panel83.Size = new System.Drawing.Size(1, 120);
+            this.panel83.TabIndex = 37;
+            // 
+            // panel82
+            // 
+            this.panel82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel82.Location = new System.Drawing.Point(55, 50);
+            this.panel82.Name = "panel82";
+            this.panel82.Size = new System.Drawing.Size(1, 120);
+            this.panel82.TabIndex = 36;
+            // 
+            // panel81
+            // 
+            this.panel81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel81.Location = new System.Drawing.Point(55, 150);
+            this.panel81.Name = "panel81";
+            this.panel81.Size = new System.Drawing.Size(300, 1);
+            this.panel81.TabIndex = 40;
+            // 
+            // panel80
+            // 
+            this.panel80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel80.Location = new System.Drawing.Point(55, 130);
+            this.panel80.Name = "panel80";
+            this.panel80.Size = new System.Drawing.Size(300, 1);
+            this.panel80.TabIndex = 39;
+            // 
+            // panel79
+            // 
+            this.panel79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel79.Location = new System.Drawing.Point(55, 110);
+            this.panel79.Name = "panel79";
+            this.panel79.Size = new System.Drawing.Size(300, 1);
+            this.panel79.TabIndex = 38;
+            // 
+            // panel78
+            // 
+            this.panel78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel78.Location = new System.Drawing.Point(55, 90);
+            this.panel78.Name = "panel78";
+            this.panel78.Size = new System.Drawing.Size(300, 1);
+            this.panel78.TabIndex = 37;
+            // 
+            // panel77
+            // 
+            this.panel77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel77.Location = new System.Drawing.Point(55, 70);
+            this.panel77.Name = "panel77";
+            this.panel77.Size = new System.Drawing.Size(300, 1);
+            this.panel77.TabIndex = 36;
+            // 
+            // panel76
+            // 
+            this.panel76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel76.Location = new System.Drawing.Point(55, 170);
+            this.panel76.Name = "panel76";
+            this.panel76.Size = new System.Drawing.Size(300, 1);
+            this.panel76.TabIndex = 36;
+            // 
+            // panel75
+            // 
+            this.panel75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel75.Location = new System.Drawing.Point(55, 50);
+            this.panel75.Name = "panel75";
+            this.panel75.Size = new System.Drawing.Size(300, 1);
+            this.panel75.TabIndex = 35;
+            // 
+            // textBox44
+            // 
+            this.textBox44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox44.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox44.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox44.ForeColor = System.Drawing.Color.Gray;
+            this.textBox44.Location = new System.Drawing.Point(311, 23);
+            this.textBox44.Name = "textBox44";
+            this.textBox44.Size = new System.Drawing.Size(60, 14);
+            this.textBox44.TabIndex = 34;
+            this.textBox44.Text = "Allocation";
+            // 
+            // textBox42
+            // 
+            this.textBox42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox42.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox42.Font = new System.Drawing.Font("Franklin Gothic Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox42.ForeColor = System.Drawing.Color.White;
+            this.textBox42.Location = new System.Drawing.Point(15, 15);
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(137, 16);
+            this.textBox42.TabIndex = 2;
+            this.textBox42.Text = "Runtime And Allocation";
+            // 
+            // textBox45
+            // 
+            this.textBox45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox45.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox45.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox45.ForeColor = System.Drawing.Color.Gray;
+            this.textBox45.Location = new System.Drawing.Point(311, 7);
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(60, 14);
+            this.textBox45.TabIndex = 33;
+            this.textBox45.Text = "Runtime";
+            // 
+            // panel70
+            // 
+            this.panel70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(188)))), ((int)(((byte)(44)))));
+            this.panel70.Location = new System.Drawing.Point(294, 11);
+            this.panel70.Name = "panel70";
+            this.panel70.Size = new System.Drawing.Size(10, 10);
+            this.panel70.TabIndex = 31;
+            // 
+            // panel69
+            // 
+            this.panel69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(76)))), ((int)(((byte)(72)))));
+            this.panel69.Location = new System.Drawing.Point(294, 27);
+            this.panel69.Name = "panel69";
+            this.panel69.Size = new System.Drawing.Size(10, 10);
+            this.panel69.TabIndex = 32;
+            // 
+            // panel86
+            // 
+            this.panel86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel86.Location = new System.Drawing.Point(295, 50);
+            this.panel86.Name = "panel86";
+            this.panel86.Size = new System.Drawing.Size(1, 120);
+            this.panel86.TabIndex = 40;
+            // 
+            // panel87
+            // 
+            this.panel87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel87.Location = new System.Drawing.Point(355, 50);
+            this.panel87.Name = "panel87";
+            this.panel87.Size = new System.Drawing.Size(1, 120);
+            this.panel87.TabIndex = 41;
+            // 
+            // textBox50
+            // 
+            this.textBox50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox50.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox50.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox50.Location = new System.Drawing.Point(3, 47);
+            this.textBox50.Name = "textBox50";
+            this.textBox50.Size = new System.Drawing.Size(50, 8);
+            this.textBox50.TabIndex = 48;
+            this.textBox50.Text = "00.00 ms/mb";
+            this.textBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox51
+            // 
+            this.textBox51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox51.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox51.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox51.Location = new System.Drawing.Point(3, 67);
+            this.textBox51.Name = "textBox51";
+            this.textBox51.Size = new System.Drawing.Size(50, 8);
+            this.textBox51.TabIndex = 49;
+            this.textBox51.Text = "00.00 ms/mb";
+            this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox52
+            // 
+            this.textBox52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox52.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox52.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox52.Location = new System.Drawing.Point(3, 87);
+            this.textBox52.Name = "textBox52";
+            this.textBox52.Size = new System.Drawing.Size(50, 8);
+            this.textBox52.TabIndex = 50;
+            this.textBox52.Text = "00.00 ms/mb";
+            this.textBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox53
+            // 
+            this.textBox53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox53.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox53.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox53.Location = new System.Drawing.Point(3, 107);
+            this.textBox53.Name = "textBox53";
+            this.textBox53.Size = new System.Drawing.Size(50, 8);
+            this.textBox53.TabIndex = 51;
+            this.textBox53.Text = "00.00 ms/mb";
+            this.textBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox54
+            // 
+            this.textBox54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox54.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox54.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox54.Location = new System.Drawing.Point(3, 127);
+            this.textBox54.Name = "textBox54";
+            this.textBox54.Size = new System.Drawing.Size(50, 8);
+            this.textBox54.TabIndex = 52;
+            this.textBox54.Text = "00.00 ms/mb";
+            this.textBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox55
+            // 
+            this.textBox55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox55.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox55.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox55.Location = new System.Drawing.Point(3, 147);
+            this.textBox55.Name = "textBox55";
+            this.textBox55.Size = new System.Drawing.Size(50, 8);
+            this.textBox55.TabIndex = 53;
+            this.textBox55.Text = "00.00 ms/mb";
+            this.textBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox56
+            // 
+            this.textBox56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox56.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox56.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox56.Location = new System.Drawing.Point(3, 167);
+            this.textBox56.Name = "textBox56";
+            this.textBox56.Size = new System.Drawing.Size(50, 8);
+            this.textBox56.TabIndex = 54;
+            this.textBox56.Text = "00.00 ms/mb";
+            this.textBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox57
+            // 
+            this.textBox57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox57.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox57.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox57.Location = new System.Drawing.Point(35, 178);
+            this.textBox57.Name = "textBox57";
+            this.textBox57.Size = new System.Drawing.Size(40, 8);
+            this.textBox57.TabIndex = 55;
+            this.textBox57.Text = "0";
+            this.textBox57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox58
+            // 
+            this.textBox58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox58.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox58.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox58.Location = new System.Drawing.Point(95, 178);
+            this.textBox58.Name = "textBox58";
+            this.textBox58.Size = new System.Drawing.Size(40, 8);
+            this.textBox58.TabIndex = 56;
+            this.textBox58.Text = "0";
+            this.textBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox59
+            // 
+            this.textBox59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox59.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox59.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox59.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox59.Location = new System.Drawing.Point(155, 178);
+            this.textBox59.Name = "textBox59";
+            this.textBox59.Size = new System.Drawing.Size(40, 8);
+            this.textBox59.TabIndex = 57;
+            this.textBox59.Text = "0";
+            this.textBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox60
+            // 
+            this.textBox60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox60.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox60.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox60.Location = new System.Drawing.Point(215, 178);
+            this.textBox60.Name = "textBox60";
+            this.textBox60.Size = new System.Drawing.Size(40, 8);
+            this.textBox60.TabIndex = 58;
+            this.textBox60.Text = "0";
+            this.textBox60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox61
+            // 
+            this.textBox61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox61.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox61.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox61.Location = new System.Drawing.Point(275, 178);
+            this.textBox61.Name = "textBox61";
+            this.textBox61.Size = new System.Drawing.Size(40, 8);
+            this.textBox61.TabIndex = 59;
+            this.textBox61.Text = "0";
+            this.textBox61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox62
+            // 
+            this.textBox62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox62.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox62.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox62.Location = new System.Drawing.Point(335, 178);
+            this.textBox62.Name = "textBox62";
+            this.textBox62.Size = new System.Drawing.Size(40, 8);
+            this.textBox62.TabIndex = 60;
+            this.textBox62.Text = "0";
+            this.textBox62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox63
+            // 
+            this.textBox63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox63.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox63.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox63.Location = new System.Drawing.Point(335, 178);
+            this.textBox63.Name = "textBox63";
+            this.textBox63.Size = new System.Drawing.Size(40, 8);
+            this.textBox63.TabIndex = 86;
+            this.textBox63.Text = "0";
+            this.textBox63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox64
+            // 
+            this.textBox64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox64.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox64.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox64.Location = new System.Drawing.Point(275, 178);
+            this.textBox64.Name = "textBox64";
+            this.textBox64.Size = new System.Drawing.Size(40, 8);
+            this.textBox64.TabIndex = 85;
+            this.textBox64.Text = "0";
+            this.textBox64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox65
+            // 
+            this.textBox65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox65.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox65.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox65.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox65.Location = new System.Drawing.Point(215, 178);
+            this.textBox65.Name = "textBox65";
+            this.textBox65.Size = new System.Drawing.Size(40, 8);
+            this.textBox65.TabIndex = 84;
+            this.textBox65.Text = "0";
+            this.textBox65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox66
+            // 
+            this.textBox66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox66.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox66.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox66.Location = new System.Drawing.Point(155, 178);
+            this.textBox66.Name = "textBox66";
+            this.textBox66.Size = new System.Drawing.Size(40, 8);
+            this.textBox66.TabIndex = 83;
+            this.textBox66.Text = "0";
+            this.textBox66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox67
+            // 
+            this.textBox67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox67.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox67.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox67.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox67.Location = new System.Drawing.Point(95, 178);
+            this.textBox67.Name = "textBox67";
+            this.textBox67.Size = new System.Drawing.Size(40, 8);
+            this.textBox67.TabIndex = 82;
+            this.textBox67.Text = "0";
+            this.textBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox68
+            // 
+            this.textBox68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox68.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox68.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox68.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox68.Location = new System.Drawing.Point(35, 178);
+            this.textBox68.Name = "textBox68";
+            this.textBox68.Size = new System.Drawing.Size(40, 8);
+            this.textBox68.TabIndex = 81;
+            this.textBox68.Text = "0";
+            this.textBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox69
+            // 
+            this.textBox69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox69.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox69.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox69.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox69.Location = new System.Drawing.Point(3, 167);
+            this.textBox69.Name = "textBox69";
+            this.textBox69.Size = new System.Drawing.Size(50, 8);
+            this.textBox69.TabIndex = 80;
+            this.textBox69.Text = "00.00 mb";
+            this.textBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox70
+            // 
+            this.textBox70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox70.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox70.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox70.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox70.Location = new System.Drawing.Point(3, 147);
+            this.textBox70.Name = "textBox70";
+            this.textBox70.Size = new System.Drawing.Size(50, 8);
+            this.textBox70.TabIndex = 79;
+            this.textBox70.Text = "00.00 mb";
+            this.textBox70.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox71
+            // 
+            this.textBox71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox71.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox71.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox71.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox71.Location = new System.Drawing.Point(3, 127);
+            this.textBox71.Name = "textBox71";
+            this.textBox71.Size = new System.Drawing.Size(50, 8);
+            this.textBox71.TabIndex = 78;
+            this.textBox71.Text = "00.00 mb";
+            this.textBox71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox72
+            // 
+            this.textBox72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox72.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox72.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox72.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox72.Location = new System.Drawing.Point(3, 107);
+            this.textBox72.Name = "textBox72";
+            this.textBox72.Size = new System.Drawing.Size(50, 8);
+            this.textBox72.TabIndex = 77;
+            this.textBox72.Text = "00.00 mb";
+            this.textBox72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox73
+            // 
+            this.textBox73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox73.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox73.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox73.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox73.Location = new System.Drawing.Point(3, 87);
+            this.textBox73.Name = "textBox73";
+            this.textBox73.Size = new System.Drawing.Size(50, 8);
+            this.textBox73.TabIndex = 76;
+            this.textBox73.Text = "00.00 mb";
+            this.textBox73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox74
+            // 
+            this.textBox74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox74.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox74.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox74.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox74.Location = new System.Drawing.Point(3, 67);
+            this.textBox74.Name = "textBox74";
+            this.textBox74.Size = new System.Drawing.Size(50, 8);
+            this.textBox74.TabIndex = 75;
+            this.textBox74.Text = "00.00 mb";
+            this.textBox74.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox75
+            // 
+            this.textBox75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(46)))), ((int)(((byte)(50)))));
+            this.textBox75.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox75.Font = new System.Drawing.Font("Franklin Gothic Medium", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox75.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(70)))), ((int)(((byte)(70)))));
+            this.textBox75.Location = new System.Drawing.Point(3, 47);
+            this.textBox75.Name = "textBox75";
+            this.textBox75.Size = new System.Drawing.Size(50, 8);
+            this.textBox75.TabIndex = 74;
+            this.textBox75.Text = "00.00 mb";
+            this.textBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panel88
+            // 
+            this.panel88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel88.Location = new System.Drawing.Point(355, 50);
+            this.panel88.Name = "panel88";
+            this.panel88.Size = new System.Drawing.Size(1, 120);
+            this.panel88.TabIndex = 73;
+            // 
+            // panel89
+            // 
+            this.panel89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel89.Location = new System.Drawing.Point(295, 50);
+            this.panel89.Name = "panel89";
+            this.panel89.Size = new System.Drawing.Size(1, 120);
+            this.panel89.TabIndex = 72;
+            // 
+            // panel90
+            // 
+            this.panel90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel90.Location = new System.Drawing.Point(235, 50);
+            this.panel90.Name = "panel90";
+            this.panel90.Size = new System.Drawing.Size(1, 120);
+            this.panel90.TabIndex = 70;
+            // 
+            // panel91
+            // 
+            this.panel91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel91.Location = new System.Drawing.Point(175, 50);
+            this.panel91.Name = "panel91";
+            this.panel91.Size = new System.Drawing.Size(1, 120);
+            this.panel91.TabIndex = 68;
+            // 
+            // panel92
+            // 
+            this.panel92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel92.Location = new System.Drawing.Point(115, 50);
+            this.panel92.Name = "panel92";
+            this.panel92.Size = new System.Drawing.Size(1, 120);
+            this.panel92.TabIndex = 66;
+            // 
+            // panel93
+            // 
+            this.panel93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel93.Location = new System.Drawing.Point(55, 50);
+            this.panel93.Name = "panel93";
+            this.panel93.Size = new System.Drawing.Size(1, 120);
+            this.panel93.TabIndex = 63;
+            // 
+            // panel94
+            // 
+            this.panel94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel94.Location = new System.Drawing.Point(55, 150);
+            this.panel94.Name = "panel94";
+            this.panel94.Size = new System.Drawing.Size(300, 1);
+            this.panel94.TabIndex = 71;
+            // 
+            // panel95
+            // 
+            this.panel95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel95.Location = new System.Drawing.Point(55, 130);
+            this.panel95.Name = "panel95";
+            this.panel95.Size = new System.Drawing.Size(300, 1);
+            this.panel95.TabIndex = 69;
+            // 
+            // panel96
+            // 
+            this.panel96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel96.Location = new System.Drawing.Point(55, 110);
+            this.panel96.Name = "panel96";
+            this.panel96.Size = new System.Drawing.Size(300, 1);
+            this.panel96.TabIndex = 67;
+            // 
+            // panel97
+            // 
+            this.panel97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel97.Location = new System.Drawing.Point(55, 90);
+            this.panel97.Name = "panel97";
+            this.panel97.Size = new System.Drawing.Size(300, 1);
+            this.panel97.TabIndex = 65;
+            // 
+            // panel98
+            // 
+            this.panel98.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel98.Location = new System.Drawing.Point(55, 70);
+            this.panel98.Name = "panel98";
+            this.panel98.Size = new System.Drawing.Size(300, 1);
+            this.panel98.TabIndex = 62;
+            // 
+            // panel99
+            // 
+            this.panel99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel99.Location = new System.Drawing.Point(55, 170);
+            this.panel99.Name = "panel99";
+            this.panel99.Size = new System.Drawing.Size(300, 1);
+            this.panel99.TabIndex = 64;
+            // 
+            // panel100
+            // 
+            this.panel100.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
+            this.panel100.Location = new System.Drawing.Point(55, 50);
+            this.panel100.Name = "panel100";
+            this.panel100.Size = new System.Drawing.Size(300, 1);
+            this.panel100.TabIndex = 61;
             // 
             // MainForm
             // 
@@ -2974,6 +4209,18 @@ namespace StudyManagementApp
             this.panel_Lecture_ProblemsBack.ResumeLayout(false);
             this.panel_Lecture_ProblemsBack.PerformLayout();
             this.panel_Lecture_MainBack.ResumeLayout(false);
+            this.panel_Analyze_AnalyzeBack.ResumeLayout(false);
+            this.panel_Analyze_SelectProblemBack.ResumeLayout(false);
+            this.panel_Analyze_SelectProblemBack.PerformLayout();
+            this.panel_Analyze_SelectProblem_MainBack.ResumeLayout(false);
+            this.panel_Analyze_SelectLectureBack.ResumeLayout(false);
+            this.panel_Analyze_SelectLectureBack.PerformLayout();
+            this.flowLayoutPanel_Analyze_SelectLecture_FlowBack.ResumeLayout(false);
+            this.panel_Analyze_GCGraphBack.ResumeLayout(false);
+            this.panel_Analyze_GCGraphBack.PerformLayout();
+            this.panel_432412.ResumeLayout(false);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.ResumeLayout(false);
+            this.panel_Analyze_RuntimeAndAllocationGraphBack.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3200,6 +4447,102 @@ namespace StudyManagementApp
         private System.Windows.Forms.TextBox textBox_Lecture_ProblemName;
         private System.Windows.Forms.TextBox textBox_Lecture_ProblemCases;
         private System.Windows.Forms.Panel panel_Analyze_AnalyzeBack;
+        private System.Windows.Forms.Panel panel_Analyze_GCGraphBack;
+        private System.Windows.Forms.Panel panel_Analyze_Edgy_2;
+        private System.Windows.Forms.Panel panel_432412;
+        private System.Windows.Forms.Panel panel_Analyze_RuntimeAndAllocationGraphBack;
+        private System.Windows.Forms.Panel panel_Analyze_Edgy_1;
+        private System.Windows.Forms.Panel panel_Analyze_SelectProblemBack;
+        private System.Windows.Forms.Panel panel_Analyze_SelectLectureBack;
+        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.TextBox textBox41;
+        private System.Windows.Forms.TextBox textBox43;
+        private System.Windows.Forms.TextBox textBox42;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel_Analyze_SelectLecture_FlowBack;
+        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.TextBox textBox45;
+        private System.Windows.Forms.Panel panel70;
+        private System.Windows.Forms.Panel panel69;
+        private System.Windows.Forms.TextBox textBox49;
+        private System.Windows.Forms.Panel panel73;
+        private System.Windows.Forms.TextBox textBox47;
+        private System.Windows.Forms.Panel panel72;
+        private System.Windows.Forms.TextBox textBox46;
+        private System.Windows.Forms.Panel panel71;
+        private System.Windows.Forms.Panel panel74;
+        private System.Windows.Forms.Panel panel75;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_1;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_2;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_3;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_4;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_5;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_6;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_7;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_8;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_9;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_10;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_11;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_12;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_13;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_14;
+        private System.Windows.Forms.Button button_Analyze_SelectLectureBtn_15;
+        private System.Windows.Forms.Panel panel_Analyze_SelectProblem_MainBack;
+        private System.Windows.Forms.Button button_Analyze_SelectProblemBtn_2;
+        private System.Windows.Forms.Button button_Analyze_SelectProblemBtn_1;
+        private System.Windows.Forms.Button button_Analyze_SelectProblemBtn_5;
+        private System.Windows.Forms.Button button_Analyze_SelectProblemBtn_4;
+        private System.Windows.Forms.Button button_Analyze_SelectProblemBtn_3;
+        private System.Windows.Forms.Panel panel76;
+        private System.Windows.Forms.Panel panel80;
+        private System.Windows.Forms.Panel panel79;
+        private System.Windows.Forms.Panel panel78;
+        private System.Windows.Forms.Panel panel77;
+        private System.Windows.Forms.Panel panel83;
+        private System.Windows.Forms.Panel panel82;
+        private System.Windows.Forms.Panel panel81;
+        private System.Windows.Forms.Panel panel85;
+        private System.Windows.Forms.Panel panel84;
+        private System.Windows.Forms.Panel panel87;
+        private System.Windows.Forms.Panel panel86;
+        private System.Windows.Forms.TextBox textBox60;
+        private System.Windows.Forms.TextBox textBox59;
+        private System.Windows.Forms.TextBox textBox58;
+        private System.Windows.Forms.TextBox textBox57;
+        private System.Windows.Forms.TextBox textBox56;
+        private System.Windows.Forms.TextBox textBox55;
+        private System.Windows.Forms.TextBox textBox54;
+        private System.Windows.Forms.TextBox textBox53;
+        private System.Windows.Forms.TextBox textBox52;
+        private System.Windows.Forms.TextBox textBox51;
+        private System.Windows.Forms.TextBox textBox50;
+        private System.Windows.Forms.TextBox textBox62;
+        private System.Windows.Forms.TextBox textBox61;
+        private System.Windows.Forms.TextBox textBox63;
+        private System.Windows.Forms.TextBox textBox64;
+        private System.Windows.Forms.TextBox textBox65;
+        private System.Windows.Forms.TextBox textBox66;
+        private System.Windows.Forms.TextBox textBox67;
+        private System.Windows.Forms.TextBox textBox68;
+        private System.Windows.Forms.TextBox textBox69;
+        private System.Windows.Forms.TextBox textBox70;
+        private System.Windows.Forms.Panel panel90;
+        private System.Windows.Forms.TextBox textBox71;
+        private System.Windows.Forms.Panel panel100;
+        private System.Windows.Forms.TextBox textBox72;
+        private System.Windows.Forms.Panel panel99;
+        private System.Windows.Forms.TextBox textBox73;
+        private System.Windows.Forms.Panel panel98;
+        private System.Windows.Forms.TextBox textBox74;
+        private System.Windows.Forms.Panel panel97;
+        private System.Windows.Forms.TextBox textBox75;
+        private System.Windows.Forms.Panel panel96;
+        private System.Windows.Forms.Panel panel88;
+        private System.Windows.Forms.Panel panel95;
+        private System.Windows.Forms.Panel panel89;
+        private System.Windows.Forms.Panel panel94;
+        private System.Windows.Forms.Panel panel93;
+        private System.Windows.Forms.Panel panel91;
+        private System.Windows.Forms.Panel panel92;
     }
 }
 

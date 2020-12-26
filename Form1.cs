@@ -75,7 +75,13 @@ namespace StudyManagementApp
         }
         private void SetDefaultLayout()
         {
-            //  Set Visable Property
+            //  Set Visable&Enbale Property
+            textBox_Lecture_CodeText.Enabled = false;
+
+            button_NewsLink_1.Enabled = false;
+            button_NewsLink_2.Enabled = false;
+            button_NewsLink_3.Enabled = false;
+            button_NewsLink_4.Enabled = false;
 
             //  Call Default Methods
             dashboardKind = DashboardKind.Overview;
@@ -106,6 +112,16 @@ namespace StudyManagementApp
             panel_Lecture_MainBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Lecture_MainBack.Width, panel_Lecture_MainBack.Height, 20, 20));
             panel_Lecture_LecturesBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Lecture_LecturesBack.Width, panel_Lecture_LecturesBack.Height, 20, 20));
             panel_Lecture_ProblemsBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Lecture_ProblemsBack.Width, panel_Lecture_ProblemsBack.Height, 20, 20));
+
+            panel_Analyze_RuntimeAndAllocationGraphBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Analyze_RuntimeAndAllocationGraphBack.Width, panel_Analyze_RuntimeAndAllocationGraphBack.Height, 20, 20));
+            panel_Analyze_Edgy_1.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Analyze_Edgy_1.Width, panel_Analyze_Edgy_1.Height, 20, 20));
+            panel_Analyze_Edgy_2.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Analyze_Edgy_2.Width, panel_Analyze_Edgy_2.Height, 20, 20));
+            panel_Analyze_GCGraphBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Analyze_GCGraphBack.Width, panel_Analyze_GCGraphBack.Height, 20, 20));
+            panel_Analyze_SelectLectureBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Analyze_SelectLectureBack.Width, panel_Analyze_SelectLectureBack.Height, 20, 20));
+            panel_Analyze_SelectProblemBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Analyze_SelectProblemBack.Width, panel_Analyze_SelectProblemBack.Height, 20, 20));
+
+            flowLayoutPanel_Analyze_SelectLecture_FlowBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, flowLayoutPanel_Analyze_SelectLecture_FlowBack.Width, flowLayoutPanel_Analyze_SelectLecture_FlowBack.Height, 20, 20));
+            panel_Analyze_SelectProblem_MainBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Analyze_SelectProblem_MainBack.Width, panel_Analyze_SelectProblem_MainBack.Height, 20, 20));
 
             // Buttons
 
@@ -188,7 +204,6 @@ namespace StudyManagementApp
             problemBtns.Add(button_Lecture_ProblemBtn_5);
 
             RefreshLectures();
-
         }
 
         private void SetCurDashboard(DashboardKind dashboardKind)
@@ -790,6 +805,13 @@ namespace StudyManagementApp
                 panel_SignInBackPanel.Enabled = false;
 
                 login = true;
+
+                textBox_Lecture_CodeText.Enabled = true;
+
+                button_NewsLink_1.Enabled = true;
+                button_NewsLink_2.Enabled = true;
+                button_NewsLink_3.Enabled = true;
+                button_NewsLink_4.Enabled = true;
 
                 PrepareAll();
             }
