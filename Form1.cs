@@ -20,8 +20,7 @@ namespace StudyManagementApp
             None = 0,
             Overview = 1,
             Lecture = 2,
-            Analyze = 3,
-            Schedule = 4
+            Analyze = 3
         };
         public enum OptionKind : byte
         {
@@ -510,13 +509,6 @@ namespace StudyManagementApp
                         }
                     }
                     break;
-
-                case DashboardKind.Schedule:
-                    this.dashboardKind = DashboardKind.Schedule;
-
-                    button_Schedule.ForeColor = Color.White;
-                    panel_ScheduleBtnLine.Visible = true;
-                    break;
             }
         }
         private void DisableAllDashboard()
@@ -604,10 +596,6 @@ namespace StudyManagementApp
                     analyze_GC3Panels[index].Enabled = false;
                 }
             }
-
-            //  Schedule
-            button_Schedule.ForeColor = Color.FromArgb(166, 166, 166);
-            panel_ScheduleBtnLine.Visible = false;
         }
         private void SetCurOption(OptionKind optionKind)
         {
@@ -632,10 +620,6 @@ namespace StudyManagementApp
                     button_Analyze.Visible = true;
                     button_Analyze.Enabled = true;
                     panel_AnalyzeBtnLine.Visible = true;
-
-                    button_Schedule.Visible = true;
-                    button_Schedule.Enabled = true;
-                    panel_ScheduleBtnLine.Visible = true;
 
                     SetCurDashboard(dashboardKind);
                     break;
@@ -667,10 +651,6 @@ namespace StudyManagementApp
             button_Analyze.Visible = false;
             button_Analyze.Enabled = false;
             panel_AnalyzeBtnLine.Visible = false;
-
-            button_Schedule.Visible = false;
-            button_Schedule.Enabled = false;
-            panel_ScheduleBtnLine.Visible = false;
 
             //  Setting
             button_Setting.ForeColor = Color.FromArgb(166, 166, 166);
@@ -1357,10 +1337,6 @@ namespace StudyManagementApp
         {
             SetCurDashboard(DashboardKind.Analyze);
         }
-        private void button_Schedule_Click(object sender, EventArgs e)
-        {
-            SetCurDashboard(DashboardKind.Schedule);
-        }
 
         private void button_Home_Click(object sender, EventArgs e)
         {
@@ -1416,7 +1392,7 @@ namespace StudyManagementApp
 
         private void button_Overview_LittleScheduleDetailBtn_Click(object sender, EventArgs e)
         {
-            SetCurDashboard(DashboardKind.Schedule);
+            System.Diagnostics.Process.Start("https://calendar.google.com/calendar/u/1?cid=dTBsczYwOGhvbjJhdTJicHF2aXAzdGNlaWNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ");
         }
         private void button_Overview_AnalyzeGraph_DetailBtn_Click(object sender, EventArgs e)
         {

@@ -31,6 +31,7 @@ namespace StudyManagementApp
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel_RightBack = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel_SignFailBack = new System.Windows.Forms.Panel();
             this.button_Sign_CloseBtn = new System.Windows.Forms.Button();
             this.textBox29 = new System.Windows.Forms.TextBox();
@@ -81,11 +82,9 @@ namespace StudyManagementApp
             this.button_Overview = new System.Windows.Forms.Button();
             this.button_Lecture = new System.Windows.Forms.Button();
             this.button_Analyze = new System.Windows.Forms.Button();
-            this.button_Schedule = new System.Windows.Forms.Button();
             this.panel_OverviewBtnLine = new System.Windows.Forms.Panel();
             this.panel_LectureBtnLine = new System.Windows.Forms.Panel();
             this.panel_AnalyzeBtnLine = new System.Windows.Forms.Panel();
-            this.panel_ScheduleBtnLine = new System.Windows.Forms.Panel();
             this.button_Help = new System.Windows.Forms.Button();
             this.button_Setting = new System.Windows.Forms.Button();
             this.button_Home = new System.Windows.Forms.Button();
@@ -346,6 +345,7 @@ namespace StudyManagementApp
             this.panel70 = new System.Windows.Forms.Panel();
             this.panel69 = new System.Windows.Forms.Panel();
             this.panel_RightBack.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel_SignFailBack.SuspendLayout();
             this.panel_SignUpBack.SuspendLayout();
             this.panel_SignInBackPanel.SuspendLayout();
@@ -395,6 +395,7 @@ namespace StudyManagementApp
             // panel_RightBack
             // 
             this.panel_RightBack.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(43)))), ((int)(((byte)(47)))));
+            this.panel_RightBack.Controls.Add(this.pictureBox5);
             this.panel_RightBack.Controls.Add(this.panel_SignFailBack);
             this.panel_RightBack.Controls.Add(this.panel_SignUpBack);
             this.panel_RightBack.Controls.Add(this.panel_SignInBackPanel);
@@ -417,6 +418,15 @@ namespace StudyManagementApp
             this.panel_RightBack.Name = "panel_RightBack";
             this.panel_RightBack.Size = new System.Drawing.Size(300, 661);
             this.panel_RightBack.TabIndex = 1;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(250, 23);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(25, 25);
+            this.pictureBox5.TabIndex = 32;
+            this.pictureBox5.TabStop = false;
             // 
             // panel_SignFailBack
             // 
@@ -697,7 +707,7 @@ namespace StudyManagementApp
             this.panel_NewsBackPanel.Controls.Add(this.panel_NewsLine3);
             this.panel_NewsBackPanel.Controls.Add(this.panel_NewsLine2);
             this.panel_NewsBackPanel.Controls.Add(this.panel_NewsLine1);
-            this.panel_NewsBackPanel.Location = new System.Drawing.Point(30, 327);
+            this.panel_NewsBackPanel.Location = new System.Drawing.Point(35, 327);
             this.panel_NewsBackPanel.Name = "panel_NewsBackPanel";
             this.panel_NewsBackPanel.Size = new System.Drawing.Size(230, 283);
             this.panel_NewsBackPanel.TabIndex = 13;
@@ -977,7 +987,7 @@ namespace StudyManagementApp
             this.textBox_UserJob.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_UserJob.Font = new System.Drawing.Font("Franklin Gothic Medium", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_UserJob.ForeColor = System.Drawing.Color.White;
-            this.textBox_UserJob.Location = new System.Drawing.Point(47, 37);
+            this.textBox_UserJob.Location = new System.Drawing.Point(35, 39);
             this.textBox_UserJob.Name = "textBox_UserJob";
             this.textBox_UserJob.ReadOnly = true;
             this.textBox_UserJob.Size = new System.Drawing.Size(203, 13);
@@ -992,7 +1002,7 @@ namespace StudyManagementApp
             this.textBox_UserName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_UserName.Font = new System.Drawing.Font("Franklin Gothic Medium", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_UserName.ForeColor = System.Drawing.Color.White;
-            this.textBox_UserName.Location = new System.Drawing.Point(47, 15);
+            this.textBox_UserName.Location = new System.Drawing.Point(35, 17);
             this.textBox_UserName.Name = "textBox_UserName";
             this.textBox_UserName.ReadOnly = true;
             this.textBox_UserName.Size = new System.Drawing.Size(203, 23);
@@ -1067,21 +1077,6 @@ namespace StudyManagementApp
             this.button_Analyze.UseVisualStyleBackColor = true;
             this.button_Analyze.Click += new System.EventHandler(this.button_Analyze_Click);
             // 
-            // button_Schedule
-            // 
-            this.button_Schedule.FlatAppearance.BorderSize = 0;
-            this.button_Schedule.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
-            this.button_Schedule.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
-            this.button_Schedule.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Schedule.Font = new System.Drawing.Font("Franklin Gothic Medium", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Schedule.Location = new System.Drawing.Point(344, 137);
-            this.button_Schedule.Name = "button_Schedule";
-            this.button_Schedule.Size = new System.Drawing.Size(72, 27);
-            this.button_Schedule.TabIndex = 7;
-            this.button_Schedule.Text = "Schedule";
-            this.button_Schedule.UseVisualStyleBackColor = true;
-            this.button_Schedule.Click += new System.EventHandler(this.button_Schedule_Click);
-            // 
             // panel_OverviewBtnLine
             // 
             this.panel_OverviewBtnLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(65)))), ((int)(((byte)(60)))));
@@ -1105,14 +1100,6 @@ namespace StudyManagementApp
             this.panel_AnalyzeBtnLine.Name = "panel_AnalyzeBtnLine";
             this.panel_AnalyzeBtnLine.Size = new System.Drawing.Size(20, 1);
             this.panel_AnalyzeBtnLine.TabIndex = 10;
-            // 
-            // panel_ScheduleBtnLine
-            // 
-            this.panel_ScheduleBtnLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(65)))), ((int)(((byte)(60)))));
-            this.panel_ScheduleBtnLine.Location = new System.Drawing.Point(370, 170);
-            this.panel_ScheduleBtnLine.Name = "panel_ScheduleBtnLine";
-            this.panel_ScheduleBtnLine.Size = new System.Drawing.Size(20, 1);
-            this.panel_ScheduleBtnLine.TabIndex = 11;
             // 
             // button_Help
             // 
@@ -2693,6 +2680,7 @@ namespace StudyManagementApp
             this.button_Lecture_ProblemBtn_5.TabIndex = 5;
             this.button_Lecture_ProblemBtn_5.Text = "Q.5";
             this.button_Lecture_ProblemBtn_5.UseVisualStyleBackColor = false;
+            this.button_Lecture_ProblemBtn_5.Visible = false;
             this.button_Lecture_ProblemBtn_5.Click += new System.EventHandler(this.button_Lecture_ProblemBtn_5_Click);
             // 
             // button_Lecture_ProblemBtn_4
@@ -2710,6 +2698,7 @@ namespace StudyManagementApp
             this.button_Lecture_ProblemBtn_4.TabIndex = 4;
             this.button_Lecture_ProblemBtn_4.Text = "Q.4";
             this.button_Lecture_ProblemBtn_4.UseVisualStyleBackColor = false;
+            this.button_Lecture_ProblemBtn_4.Visible = false;
             this.button_Lecture_ProblemBtn_4.Click += new System.EventHandler(this.button_Lecture_ProblemBtn_4_Click);
             // 
             // button_Lecture_ProblemBtn_3
@@ -2727,6 +2716,7 @@ namespace StudyManagementApp
             this.button_Lecture_ProblemBtn_3.TabIndex = 3;
             this.button_Lecture_ProblemBtn_3.Text = "Q.3";
             this.button_Lecture_ProblemBtn_3.UseVisualStyleBackColor = false;
+            this.button_Lecture_ProblemBtn_3.Visible = false;
             this.button_Lecture_ProblemBtn_3.Click += new System.EventHandler(this.button_Lecture_ProblemBtn_3_Click);
             // 
             // button_Lecture_ProblemBtn_2
@@ -2744,6 +2734,7 @@ namespace StudyManagementApp
             this.button_Lecture_ProblemBtn_2.TabIndex = 2;
             this.button_Lecture_ProblemBtn_2.Text = "Q.2";
             this.button_Lecture_ProblemBtn_2.UseVisualStyleBackColor = false;
+            this.button_Lecture_ProblemBtn_2.Visible = false;
             this.button_Lecture_ProblemBtn_2.Click += new System.EventHandler(this.button_Lecture_ProblemBtn_2_Click);
             // 
             // button_Lecture_ProblemBtn_1
@@ -2761,6 +2752,7 @@ namespace StudyManagementApp
             this.button_Lecture_ProblemBtn_1.TabIndex = 1;
             this.button_Lecture_ProblemBtn_1.Text = "Q.1";
             this.button_Lecture_ProblemBtn_1.UseVisualStyleBackColor = false;
+            this.button_Lecture_ProblemBtn_1.Visible = false;
             this.button_Lecture_ProblemBtn_1.Click += new System.EventHandler(this.button_Lecture_ProblemBtn_1_Click);
             // 
             // textBox_Lecture_CodeText
@@ -3112,6 +3104,7 @@ namespace StudyManagementApp
             this.textBox41.Size = new System.Drawing.Size(100, 16);
             this.textBox41.TabIndex = 1;
             this.textBox41.Text = "Select Problem";
+            this.textBox41.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel_Analyze_SelectLectureBack
             // 
@@ -3368,6 +3361,7 @@ namespace StudyManagementApp
             this.textBox40.Size = new System.Drawing.Size(100, 16);
             this.textBox40.TabIndex = 0;
             this.textBox40.Text = "Select Lecture";
+            this.textBox40.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel_Analyze_Edgy_2
             // 
@@ -3436,6 +3430,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_X_6.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_GC_X_6.TabIndex = 86;
             this.textBox_Analyze_GC_X_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_X_6.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox49
             // 
@@ -3448,6 +3443,7 @@ namespace StudyManagementApp
             this.textBox49.Size = new System.Drawing.Size(30, 14);
             this.textBox49.TabIndex = 40;
             this.textBox49.Text = "Gen 1";
+            this.textBox49.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_GC_X_5
             // 
@@ -3460,6 +3456,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_X_5.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_GC_X_5.TabIndex = 85;
             this.textBox_Analyze_GC_X_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_X_5.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel73
             // 
@@ -3480,6 +3477,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_X_4.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_GC_X_4.TabIndex = 84;
             this.textBox_Analyze_GC_X_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_X_4.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox47
             // 
@@ -3492,6 +3490,7 @@ namespace StudyManagementApp
             this.textBox47.Size = new System.Drawing.Size(30, 14);
             this.textBox47.TabIndex = 38;
             this.textBox47.Text = "Gen 2";
+            this.textBox47.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_GC_X_3
             // 
@@ -3504,6 +3503,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_X_3.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_GC_X_3.TabIndex = 83;
             this.textBox_Analyze_GC_X_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_X_3.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel72
             // 
@@ -3524,6 +3524,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_X_2.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_GC_X_2.TabIndex = 82;
             this.textBox_Analyze_GC_X_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_X_2.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox46
             // 
@@ -3536,6 +3537,7 @@ namespace StudyManagementApp
             this.textBox46.Size = new System.Drawing.Size(30, 14);
             this.textBox46.TabIndex = 36;
             this.textBox46.Text = "Gen 3";
+            this.textBox46.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_GC_X_1
             // 
@@ -3548,6 +3550,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_X_1.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_GC_X_1.TabIndex = 81;
             this.textBox_Analyze_GC_X_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_X_1.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox43
             // 
@@ -3561,6 +3564,7 @@ namespace StudyManagementApp
             this.textBox43.TabIndex = 2;
             this.textBox43.Text = "Garbage Collector";
             this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBox43.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_GC_Y_1
             // 
@@ -3574,6 +3578,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_Y_1.TabIndex = 80;
             this.textBox_Analyze_GC_Y_1.Text = "000.00 mb";
             this.textBox_Analyze_GC_Y_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_Y_1.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel71
             // 
@@ -3595,6 +3600,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_Y_2.TabIndex = 79;
             this.textBox_Analyze_GC_Y_2.Text = "000.00 mb";
             this.textBox_Analyze_GC_Y_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_Y_2.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel90
             // 
@@ -3616,6 +3622,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_Y_3.TabIndex = 78;
             this.textBox_Analyze_GC_Y_3.Text = "000.00 mb";
             this.textBox_Analyze_GC_Y_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_Y_3.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel100
             // 
@@ -3637,6 +3644,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_Y_4.TabIndex = 77;
             this.textBox_Analyze_GC_Y_4.Text = "000.00 mb";
             this.textBox_Analyze_GC_Y_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_Y_4.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel99
             // 
@@ -3658,6 +3666,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_Y_5.TabIndex = 76;
             this.textBox_Analyze_GC_Y_5.Text = "000.00 mb";
             this.textBox_Analyze_GC_Y_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_Y_5.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel98
             // 
@@ -3679,6 +3688,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_Y_6.TabIndex = 75;
             this.textBox_Analyze_GC_Y_6.Text = "000.00 mb";
             this.textBox_Analyze_GC_Y_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_Y_6.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel97
             // 
@@ -3700,6 +3710,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_GC_Y_7.TabIndex = 74;
             this.textBox_Analyze_GC_Y_7.Text = "000.00 mb";
             this.textBox_Analyze_GC_Y_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_GC_Y_7.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel96
             // 
@@ -3832,6 +3843,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_X_6.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_RuntimeAndAllocation_X_6.TabIndex = 60;
             this.textBox_Analyze_RuntimeAndAllocation_X_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_X_6.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_X_5
             // 
@@ -3844,6 +3856,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_X_5.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_RuntimeAndAllocation_X_5.TabIndex = 59;
             this.textBox_Analyze_RuntimeAndAllocation_X_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_X_5.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_X_4
             // 
@@ -3856,6 +3869,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_X_4.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_RuntimeAndAllocation_X_4.TabIndex = 58;
             this.textBox_Analyze_RuntimeAndAllocation_X_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_X_4.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_X_3
             // 
@@ -3868,6 +3882,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_X_3.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_RuntimeAndAllocation_X_3.TabIndex = 57;
             this.textBox_Analyze_RuntimeAndAllocation_X_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_X_3.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_X_2
             // 
@@ -3880,6 +3895,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_X_2.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_RuntimeAndAllocation_X_2.TabIndex = 56;
             this.textBox_Analyze_RuntimeAndAllocation_X_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_X_2.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_X_1
             // 
@@ -3892,6 +3908,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_X_1.Size = new System.Drawing.Size(40, 8);
             this.textBox_Analyze_RuntimeAndAllocation_X_1.TabIndex = 55;
             this.textBox_Analyze_RuntimeAndAllocation_X_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_X_1.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_Y_1
             // 
@@ -3905,6 +3922,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_Y_1.TabIndex = 54;
             this.textBox_Analyze_RuntimeAndAllocation_Y_1.Text = "000.00 ms/mb";
             this.textBox_Analyze_RuntimeAndAllocation_Y_1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_Y_1.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_Y_2
             // 
@@ -3918,6 +3936,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_Y_2.TabIndex = 53;
             this.textBox_Analyze_RuntimeAndAllocation_Y_2.Text = "000.00 ms/mb";
             this.textBox_Analyze_RuntimeAndAllocation_Y_2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_Y_2.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_Y_3
             // 
@@ -3931,6 +3950,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_Y_3.TabIndex = 52;
             this.textBox_Analyze_RuntimeAndAllocation_Y_3.Text = "000.00 ms/mb";
             this.textBox_Analyze_RuntimeAndAllocation_Y_3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_Y_3.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_Y_4
             // 
@@ -3944,6 +3964,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_Y_4.TabIndex = 51;
             this.textBox_Analyze_RuntimeAndAllocation_Y_4.Text = "000.00 ms/mb";
             this.textBox_Analyze_RuntimeAndAllocation_Y_4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_Y_4.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_Y_5
             // 
@@ -3957,6 +3978,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_Y_5.TabIndex = 50;
             this.textBox_Analyze_RuntimeAndAllocation_Y_5.Text = "000.00 ms/mb";
             this.textBox_Analyze_RuntimeAndAllocation_Y_5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_Y_5.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_Y_6
             // 
@@ -3970,6 +3992,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_Y_6.TabIndex = 49;
             this.textBox_Analyze_RuntimeAndAllocation_Y_6.Text = "000.00 ms/mb";
             this.textBox_Analyze_RuntimeAndAllocation_Y_6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_Y_6.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox_Analyze_RuntimeAndAllocation_Y_7
             // 
@@ -3983,6 +4006,7 @@ namespace StudyManagementApp
             this.textBox_Analyze_RuntimeAndAllocation_Y_7.TabIndex = 48;
             this.textBox_Analyze_RuntimeAndAllocation_Y_7.Text = "000.00 ms/mb";
             this.textBox_Analyze_RuntimeAndAllocation_Y_7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_Analyze_RuntimeAndAllocation_Y_7.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel87
             // 
@@ -4099,6 +4123,7 @@ namespace StudyManagementApp
             this.textBox44.Size = new System.Drawing.Size(60, 14);
             this.textBox44.TabIndex = 34;
             this.textBox44.Text = "Allocation";
+            this.textBox44.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox42
             // 
@@ -4111,6 +4136,7 @@ namespace StudyManagementApp
             this.textBox42.Size = new System.Drawing.Size(137, 16);
             this.textBox42.TabIndex = 2;
             this.textBox42.Text = "Runtime And Allocation";
+            this.textBox42.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // textBox45
             // 
@@ -4123,6 +4149,7 @@ namespace StudyManagementApp
             this.textBox45.Size = new System.Drawing.Size(60, 14);
             this.textBox45.TabIndex = 33;
             this.textBox45.Text = "Runtime";
+            this.textBox45.Enter += new System.EventHandler(this.FocusCancel);
             // 
             // panel70
             // 
@@ -4154,11 +4181,9 @@ namespace StudyManagementApp
             this.Controls.Add(this.button_Home);
             this.Controls.Add(this.button_Setting);
             this.Controls.Add(this.button_Help);
-            this.Controls.Add(this.panel_ScheduleBtnLine);
             this.Controls.Add(this.panel_AnalyzeBtnLine);
             this.Controls.Add(this.panel_LectureBtnLine);
             this.Controls.Add(this.panel_OverviewBtnLine);
-            this.Controls.Add(this.button_Schedule);
             this.Controls.Add(this.button_Analyze);
             this.Controls.Add(this.button_Lecture);
             this.Controls.Add(this.button_Overview);
@@ -4170,6 +4195,7 @@ namespace StudyManagementApp
             this.Name = "MainForm";
             this.panel_RightBack.ResumeLayout(false);
             this.panel_RightBack.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel_SignFailBack.ResumeLayout(false);
             this.panel_SignFailBack.PerformLayout();
             this.panel_SignUpBack.ResumeLayout(false);
@@ -4253,11 +4279,9 @@ namespace StudyManagementApp
         private System.Windows.Forms.Button button_Overview;
         private System.Windows.Forms.Button button_Lecture;
         private System.Windows.Forms.Button button_Analyze;
-        private System.Windows.Forms.Button button_Schedule;
         private System.Windows.Forms.Panel panel_OverviewBtnLine;
         private System.Windows.Forms.Panel panel_LectureBtnLine;
         private System.Windows.Forms.Panel panel_AnalyzeBtnLine;
-        private System.Windows.Forms.Panel panel_ScheduleBtnLine;
         private System.Windows.Forms.Panel panel_NewsLine1;
         private System.Windows.Forms.Panel panel_NewsLine3;
         private System.Windows.Forms.Panel panel_NewsLine2;
@@ -4551,5 +4575,6 @@ namespace StudyManagementApp
         private System.Windows.Forms.Panel panel93;
         private System.Windows.Forms.Panel panel91;
         private System.Windows.Forms.Panel panel92;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }
