@@ -31,8 +31,6 @@ namespace StudyManagementApp
 
 
 
-        private ImageList imageList;
-
         private DashboardKind dashboardKind;
 
         private NewsManager newsManager;
@@ -62,12 +60,6 @@ namespace StudyManagementApp
 
         private void Init()
         {
-            imageList = new ImageList();
-
-            imageList.ImageSize = new Size(15, 15);
-            imageList.Images.Add(Image.FromFile("C:\\Users\\lioie\\Desktop\\plus-symbol-button.png"));
-            imageList.Images.Add(Image.FromFile("C:\\Users\\lioie\\Desktop\\New Piskel-1.png (23).png"));
-
             userManager = new UserManager();
 
             login = false;
@@ -123,6 +115,26 @@ namespace StudyManagementApp
             panel_Analyze_SelectProblem_MainBack.Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, panel_Analyze_SelectProblem_MainBack.Width, panel_Analyze_SelectProblem_MainBack.Height, 20, 20));
 
             //  Buttons
+
+            //  Images
+            pictureBox1.Image = Properties.Resources.microsoft_1_png;
+            pictureBox2.Image = Properties.Resources.stack_overflow_1_png;
+            pictureBox4.Image = Properties.Resources.github_1_png;
+            pictureBox3.Image = Properties.Resources.google_1_png;
+
+            pictureBox5.Image = Properties.Resources.user;
+
+            button_NewsLink_1.Image = Properties.Resources.external_link_symbol_1_png;
+            button_NewsLink_2.Image = Properties.Resources.external_link_symbol_1_png;
+            button_NewsLink_3.Image = Properties.Resources.external_link_symbol_1_png;
+            button_NewsLink_4.Image = Properties.Resources.external_link_symbol_1_png;
+
+            button_Overview_MSDN.Image = Properties.Resources.external_link_symbol_1_png;
+            button_Overview_StackOverflow.Image = Properties.Resources.external_link_symbol_1_png;
+            button_Overview_Github.Image = Properties.Resources.external_link_symbol_1_png;
+            button_Overview_Google.Image = Properties.Resources.external_link_symbol_1_png;
+
+            button_Sign_CloseBtn.Image = Properties.Resources.close_cross_1_png;
 
             //  Analyze
             button_Analyze_SelectLectureBtn_1.Visible = false;

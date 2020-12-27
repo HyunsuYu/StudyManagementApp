@@ -421,7 +421,6 @@ namespace StudyManagementApp
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(250, 23);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(25, 25);
@@ -443,7 +442,6 @@ namespace StudyManagementApp
             // 
             this.button_Sign_CloseBtn.FlatAppearance.BorderSize = 0;
             this.button_Sign_CloseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Sign_CloseBtn.Image = ((System.Drawing.Image)(resources.GetObject("button_Sign_CloseBtn.Image")));
             this.button_Sign_CloseBtn.Location = new System.Drawing.Point(195, 9);
             this.button_Sign_CloseBtn.Name = "button_Sign_CloseBtn";
             this.button_Sign_CloseBtn.Size = new System.Drawing.Size(15, 15);
@@ -716,7 +714,6 @@ namespace StudyManagementApp
             // 
             this.button_NewsLink_4.FlatAppearance.BorderSize = 0;
             this.button_NewsLink_4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_NewsLink_4.Image = ((System.Drawing.Image)(resources.GetObject("button_NewsLink_4.Image")));
             this.button_NewsLink_4.Location = new System.Drawing.Point(195, 243);
             this.button_NewsLink_4.Name = "button_NewsLink_4";
             this.button_NewsLink_4.Size = new System.Drawing.Size(15, 15);
@@ -753,7 +750,6 @@ namespace StudyManagementApp
             // 
             this.button_NewsLink_3.FlatAppearance.BorderSize = 0;
             this.button_NewsLink_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_NewsLink_3.Image = ((System.Drawing.Image)(resources.GetObject("button_NewsLink_3.Image")));
             this.button_NewsLink_3.Location = new System.Drawing.Point(195, 172);
             this.button_NewsLink_3.Name = "button_NewsLink_3";
             this.button_NewsLink_3.Size = new System.Drawing.Size(15, 15);
@@ -790,7 +786,6 @@ namespace StudyManagementApp
             // 
             this.button_NewsLink_2.FlatAppearance.BorderSize = 0;
             this.button_NewsLink_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_NewsLink_2.Image = ((System.Drawing.Image)(resources.GetObject("button_NewsLink_2.Image")));
             this.button_NewsLink_2.Location = new System.Drawing.Point(195, 101);
             this.button_NewsLink_2.Name = "button_NewsLink_2";
             this.button_NewsLink_2.Size = new System.Drawing.Size(15, 15);
@@ -827,7 +822,6 @@ namespace StudyManagementApp
             // 
             this.button_NewsLink_1.FlatAppearance.BorderSize = 0;
             this.button_NewsLink_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_NewsLink_1.Image = ((System.Drawing.Image)(resources.GetObject("button_NewsLink_1.Image")));
             this.button_NewsLink_1.Location = new System.Drawing.Point(195, 30);
             this.button_NewsLink_1.Name = "button_NewsLink_1";
             this.button_NewsLink_1.Size = new System.Drawing.Size(15, 15);
@@ -1203,7 +1197,6 @@ namespace StudyManagementApp
             // 
             this.button_Overview_Google.FlatAppearance.BorderSize = 0;
             this.button_Overview_Google.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Overview_Google.Image = ((System.Drawing.Image)(resources.GetObject("button_Overview_Google.Image")));
             this.button_Overview_Google.Location = new System.Drawing.Point(184, 75);
             this.button_Overview_Google.Name = "button_Overview_Google";
             this.button_Overview_Google.Size = new System.Drawing.Size(15, 15);
@@ -1215,7 +1208,6 @@ namespace StudyManagementApp
             // 
             this.button_Overview_Github.FlatAppearance.BorderSize = 0;
             this.button_Overview_Github.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Overview_Github.Image = ((System.Drawing.Image)(resources.GetObject("button_Overview_Github.Image")));
             this.button_Overview_Github.Location = new System.Drawing.Point(184, 20);
             this.button_Overview_Github.Name = "button_Overview_Github";
             this.button_Overview_Github.Size = new System.Drawing.Size(15, 15);
@@ -1259,7 +1251,6 @@ namespace StudyManagementApp
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(15, 13);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(30, 30);
@@ -1268,7 +1259,6 @@ namespace StudyManagementApp
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(15, 68);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(30, 30);
@@ -1294,7 +1284,6 @@ namespace StudyManagementApp
             // 
             this.button_Overview_StackOverflow.FlatAppearance.BorderSize = 0;
             this.button_Overview_StackOverflow.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Overview_StackOverflow.Image = ((System.Drawing.Image)(resources.GetObject("button_Overview_StackOverflow.Image")));
             this.button_Overview_StackOverflow.Location = new System.Drawing.Point(184, 75);
             this.button_Overview_StackOverflow.Name = "button_Overview_StackOverflow";
             this.button_Overview_StackOverflow.Size = new System.Drawing.Size(15, 15);
@@ -1306,7 +1295,6 @@ namespace StudyManagementApp
             // 
             this.button_Overview_MSDN.FlatAppearance.BorderSize = 0;
             this.button_Overview_MSDN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Overview_MSDN.Image = ((System.Drawing.Image)(resources.GetObject("button_Overview_MSDN.Image")));
             this.button_Overview_MSDN.Location = new System.Drawing.Point(184, 20);
             this.button_Overview_MSDN.Name = "button_Overview_MSDN";
             this.button_Overview_MSDN.Size = new System.Drawing.Size(15, 15);
@@ -1342,7 +1330,6 @@ namespace StudyManagementApp
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(15, 68);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(30, 30);
@@ -1351,7 +1338,6 @@ namespace StudyManagementApp
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(15, 13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(30, 30);

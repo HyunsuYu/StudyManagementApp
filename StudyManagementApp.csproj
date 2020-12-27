@@ -152,6 +152,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="programming_T42_icon.ico" />
+    <None Include="Resources\close-cross-1.png.png" />
+    <None Include="Resources\,jmghdnfgsbdfvs.png" />
+    <None Include="Resources\external-link-symbol-1.png.png" />
+    <None Include="Resources\user-profile-1.png.png" />
+    <None Include="Resources\google-1.png.png" />
+    <None Include="Resources\github-1.png.png" />
+    <None Include="Resources\stack-overflow-1.png.png" />
+    <None Include="Resources\microsoft-1.png.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
