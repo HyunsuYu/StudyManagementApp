@@ -36,7 +36,7 @@ namespace StudyManagementApp
 
         public NewsManager()
         {
-            mySqlConnection = new MySqlConnection(string.Format("Server={0};Port={1};Database={2};Uid={3};Pwd={4}", "rds-mysql-10mintutorial.csdo3rnya7du.ap-northeast-2.rds.amazonaws.com", "3306", "new_schema", "masterUsername", "yuhyunsu2428"));
+            mySqlConnection = new MySqlConnection(string.Format("Server={0};Port={1};Database={2};Uid={3};Pwd={4}", /*Personal Infos*/));
             try
             {
                 mySqlConnection.Open();
