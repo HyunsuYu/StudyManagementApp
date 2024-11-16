@@ -224,7 +224,7 @@ namespace StudyManagementApp
 
         public LectureManager(string userIdentifyNumber)
         {
-            mySqlConnection = new MySqlConnection(string.Format("Server={0};Port={1};Database={2};Uid={3};Pwd={4}", "rds-mysql-10mintutorial.csdo3rnya7du.ap-northeast-2.rds.amazonaws.com", "3306", "new_schema", "masterUsername", "yuhyunsu2428"));
+            mySqlConnection = new MySqlConnection(string.Format("Server={0};Port={1};Database={2};Uid={3};Pwd={4}", /*Personal Infos*/));
 
             lectureDatas = new List<LectureData>();
             mySqlCommand = new MySqlCommand("SELECT * FROM LectureDataTable WHERE UserIdentifyNumber = " + userIdentifyNumber, mySqlConnection);
@@ -409,7 +409,7 @@ namespace StudyManagementApp
         public bool ProceedSignIn(string id, string password, TextBox errorTextBox)
         {
             bool state = false;
-            MySqlConnection mySqlConnection = new MySqlConnection(string.Format("Server={0};Port={1};Database={2};Uid={3};Pwd={4}", "rds-mysql-10mintutorial.csdo3rnya7du.ap-northeast-2.rds.amazonaws.com", "3306", "new_schema", "masterUsername", "yuhyunsu2428"));
+            MySqlConnection mySqlConnection = new MySqlConnection(string.Format("Server={0};Port={1};Database={2};Uid={3};Pwd={4}", /*Personal Infos*/));
 
             try
             {
@@ -453,7 +453,7 @@ namespace StudyManagementApp
         public bool ProceedSignUp(string id, string password, TextBox errorTextBox)
         {
             bool state = false;
-            MySqlConnection mySqlConnection = new MySqlConnection(string.Format("Server={0};Port={1};Database={2};Uid={3};Pwd={4}", "rds-mysql-10mintutorial.csdo3rnya7du.ap-northeast-2.rds.amazonaws.com", "3306", "new_schema", "masterUsername", "yuhyunsu2428"));
+            MySqlConnection mySqlConnection = new MySqlConnection(string.Format("Server={0};Port={1};Database={2};Uid={3};Pwd={4}", /*Personal Infos*/));
 
             try
             {
